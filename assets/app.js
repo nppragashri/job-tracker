@@ -6,6 +6,11 @@
  */
 
 const STORE_KEY = 'jobtracker.v1';
+
+// Last line of defence. Even if a role with a higher requirement somehow ends
+// up in jobs.json, the board will not show it. Keep in step with MAX_YEARS in
+// scripts/fetch_jobs.py.
+const MAX_YEARS = 2;
 const STATUSES = ['To apply', 'Applied', 'Online assessment', 'Interview',
                   'Offer', 'Rejected', 'No response', 'Not interested'];
 const VARIANTS = ['AI_LLM_Backend', 'Platform_Backend', 'Data_ML'];
@@ -137,7 +142,12 @@ function initBoard() {
     const state = loadState();
     const f = activeFilters();
 
-    const shown = data.jobs.filter(j => {
+    // Enforce the experience cap here too, not just in the fetcher.
+    const overCap = data.jobs.filter(
+      j => typeof j.years_required === 'number' && j.years_required > MAX_YEARS);
+    const eligible = data.jobs.filter(j => !overCap.includes(j));
+
+    const shown = eligible.filter(j => {
       if (f.newOnly && !j.is_new) return false;
       if (f.source && j.source !== f.source) return false;
       if (f.hideDone && state[j.id]) return false;
@@ -148,11 +158,12 @@ function initBoard() {
       return true;
     });
 
-    const applied = data.jobs.filter(j => state[j.id]).length;
+    const applied = eligible.filter(j => state[j.id]).length;
     stampEl.textContent =
-      `List built ${data.generated_date}${data.generated_date === new Date().toISOString().slice(0, 10) ? ' (today)' : ''}`;
+      `List built ${data.generated_date}${data.generated_date === new Date().toISOString().slice(0, 10) ? ' (today)' : ''}` +
+      (overCap.length ? ` · ${overCap.length} role${overCap.length > 1 ? 's' : ''} hidden for asking more than ${MAX_YEARS} years` : '');
     statsEl.innerHTML =
-      `<b>${data.jobs.length}</b> roles tracked · <b>${data.counts.new_today || 0}</b> new in the
+      `<b>${eligible.length}</b> roles · <b>${data.counts.new_today || 0}</b> new in the
        last run · <b>${applied}</b> marked applied · showing <b>${shown.length}</b>`;
 
     // Populate the source filter once.
@@ -179,13 +190,17 @@ function initBoard() {
 
   function card(j, entry) {
     const done = !!entry;
-    const bits = [j.experience, j.location, j.comp, j.posted ? fmtWhen(j.posted) : '']
+    const bits = [j.location, j.comp, j.posted ? fmtWhen(j.posted) : '']
       .filter(Boolean).map(b => `<span>${esc(b)}</span>`).join('');
+    // The experience requirement gets its own chip rather than being buried in
+    // the metadata line — it is the thing that has to be right.
+    const yrs = j.experience || 'level not stated';
     return `
       <article class="card${done ? ' done' : ''}">
         <div class="chead">
           <div>
             <span class="co">${esc(j.company || 'Company on posting')}</span>
+            <span class="tag yrs">${esc(yrs)}</span>
             ${j.is_new ? '<span class="tag new">new</span>' : ''}
             ${done ? `<span class="tag ok">${esc(entry.status)}</span>` : ''}
           </div>
@@ -268,7 +283,8 @@ function initApplied() {
           <td><input data-notes="${esc(id)}" value="${esc(e.notes || '')}"
                      placeholder="referral, recruiter name, next step…"></td>
           <td class="nowrap">
-            ${j.url ? `<a href="${esc(j.url)}" target="_blank" rel="noopener">posting</a> · ` : ''}
+            ${(j.url || e.url) ? `<a href="${esc(j.url || e.url)}" target="_blank"
+               rel="noopener">posting</a> · ` : ''}
             <button class="linkbtn" data-del="${esc(id)}">remove</button>
           </td>
         </tr>`;
@@ -302,8 +318,9 @@ function initApplied() {
     const rows = [['Date', 'Company', 'Role', 'Status', 'Resume variant', 'Notes', 'URL']];
     Object.keys(state).forEach(id => {
       const e = state[id], j = jobsById[id] || {};
-      rows.push([e.appliedAt || '', j.company || '', j.title || '', e.status || '',
-                 e.variant || '', e.notes || '', j.url || '']);
+      rows.push([e.appliedAt || '', j.company || e.company || '',
+                 j.title || e.title || '', e.status || '',
+                 e.variant || '', e.notes || '', j.url || e.url || '']);
     });
     const csv = rows.map(r =>
       r.map(c => `"${String(c).replace(/"/g, '""')}"`).join(',')).join('\n');

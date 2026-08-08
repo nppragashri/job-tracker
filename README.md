@@ -12,6 +12,39 @@ most recent run are badged **new**.
 
 ---
 
+## Refreshing the list
+
+**Right now, before anything is pushed** — run it locally:
+
+```bash
+cd job-tracker
+python3 scripts/fetch_jobs.py     # fetches, filters, rewrites data/jobs.json
+python3 -m http.server 8000       # then open http://localhost:8000
+```
+
+The fetch takes two to four minutes; most of that is polite pauses between
+requests. It prints each source and how many roles survived the filter, and
+names anything it dropped for asking too many years. No dependencies — Python 3
+and nothing else.
+
+**Once it's on GitHub** — the Action runs itself every morning at 06:00 IST. To
+force a run: **Actions** tab → *Refresh job list* → **Run workflow** → pick
+`main` → **Run workflow**. Give it two minutes, then hit **Refresh** on the page.
+
+The **Refresh** button on the board only re-reads `data/jobs.json`. It cannot
+scrape live — a page on GitHub Pages isn't allowed to fetch other sites. So the
+button shows you the newest committed list; the Action is what actually goes and
+looks.
+
+### Loading applications already sent
+
+`data/applications-seed.json` holds the two applications submitted before this
+tracker existed — Cartesia and vaiu.ai. On the applications page, click
+**Import backup** and choose that file. After that, everything is tracked
+through the board.
+
+---
+
 ## Getting it live
 
 ```bash
@@ -74,16 +107,60 @@ keeps updating — you'll just see fewer small startups.
 
 ### The filter
 
-`scripts/fetch_jobs.py` keeps a role only if it:
+Three hard rules. `scripts/fetch_jobs.py` keeps a role only if:
 
-- has a backend / platform / AI / ML / data / founding-flavoured title,
-- is **not** senior, staff, principal, lead, manager, architect, or a II/III level,
-- is **not** an internship,
-- is located in India or remote.
+1. **It asks for no more than 2 years.** `MAX_YEARS = 2` at the top of the file.
+2. **It is in Bengaluru.** Remote-only postings are dropped even when the company
+   is Bengaluru-based. Hyderabad, Mumbai, Delhi and "Remote · Everywhere" are all out.
+3. **It is full-time.** Internships are dropped.
 
-Explicitly junior words — *graduate, new grad, junior, associate, SDE 1,
-Engineer I, founding* — override the seniority filter, so "Associate Software
-Engineer" survives but "Senior Software Engineer" does not.
+Plus the usual shape checks: a backend / platform / AI / ML / data / founding
+flavoured title, and not senior, staff, principal, lead, manager, architect, or
+a II/III level. Explicitly junior words — *graduate, new grad, junior, associate,
+SDE 1, Engineer I, founding* — override the seniority check, so "Associate
+Software Engineer" survives but "Senior Software Engineer" does not.
+
+**Years are read from the posting body, not the listing tag.** This matters more
+than it sounds. A Wellfound listing showed "Backend Engineer" at a Bengaluru
+startup with no experience tag at all; the posting itself asked for 4+ years.
+Another listed no band and wanted 5. So:
+
+- Greenhouse is fetched with `?content=true`, Lever with `descriptionPlain` and
+  its bullet lists, Ashby with `descriptionPlain`.
+- Wellfound listings that state no band get the individual posting opened and
+  read, up to `WF_DEEP_CHECK_BUDGET` per run.
+- `min_years_required()` takes the **lowest** figure stated anywhere in the text,
+  since that is the floor that actually gates an application, and ignores numbers
+  that aren't near an experience-flavoured word so company ages and team sizes
+  don't count.
+- If a posting's requirement cannot be verified, it is left out rather than
+  included on the assumption it might be fine.
+
+**A posting that never states a number is dropped**, unless the title itself is
+explicitly junior (Engineer I, Associate, Graduate, Founding, SDE-1). This is
+`REQUIRE_EXPLICIT_YEARS = True`, and it is the setting that stops senior roles
+leaking: plenty of them simply never print a figure, and "no number" used to be
+read as "probably fine". If the board ever feels too thin, set it to `False` —
+but expect four- and five-year roles back.
+
+To loosen any of this, change `MAX_YEARS`, flip `REQUIRE_EXPLICIT_YEARS`, or
+edit `BENGALURU` / `REMOTE_ONLY` near the top of the file.
+
+### Three layers, so nothing gets through by accident
+
+1. **The fetcher** applies the rules and logs every drop with its reason.
+2. **`scripts/audit.py`** re-checks the finished `data/jobs.json` and exits
+   non-zero if anything violates. The Action runs it right after the fetch, so a
+   leak turns the build red instead of quietly appearing on the board.
+3. **The page itself** hides any role whose `years_required` exceeds the cap,
+   regardless of what the data says, and prints how many it hid. Each card shows
+   the requirement as a chip, so you can always see what a role is asking for.
+
+Run the audit by hand any time:
+
+```bash
+python3 scripts/audit.py
+```
 
 To widen or narrow it, edit `WANT`, `TOO_SENIOR` and `JUNIOR_HINT` near the top
 of that file. To add companies, append to the `GREENHOUSE`, `LEVER` or `ASHBY`

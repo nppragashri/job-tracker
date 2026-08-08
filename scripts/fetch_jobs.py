@@ -46,37 +46,121 @@ WANT = re.compile(
     r"\b(backend|back-end|software|platform|infrastructure|distributed|api|"
     r"ai|ml|machine learning|data|llm|voice|founding|full[ -]?stack|sde)\b", re.I)
 
-# Seniority we do NOT want. This is the important filter.
+# Seniority we do NOT want. Levels may be written "SDE 2", "SDE-2", "SDE-II",
+# "Engineer III", "L3", "IC3" — the separator class matters, an earlier version
+# missed "SDE-2" because it only allowed a space.
+_SEP = r"[\s\-–—_]?"
 TOO_SENIOR = re.compile(
-    r"\b(senior|sr\.?|staff|principal|lead|head|director|vp|architect|"
-    r"manager|distinguished|sde ?(?:2|3|ii|iii)|engineer ?(?:2|3|ii|iii)|"
-    r"^ii\b|level ?(?:2|3))\b", re.I)
+    r"\b(senior|snr|sr\.?|staff|principal|lead|head|director|vp|architect|"
+    r"manager|distinguished|expert|specialist|"
+    rf"sde{_SEP}(?:2|3|4|ii|iii|iv)|"
+    rf"sdet{_SEP}(?:2|3|ii|iii)|"
+    rf"engineer{_SEP}(?:2|3|4|ii|iii|iv)|"
+    rf"developer{_SEP}(?:2|3|4|ii|iii|iv)|"
+    rf"scientist{_SEP}(?:2|3|ii|iii)|"
+    rf"level{_SEP}(?:2|3|4)|l[34]|ic[34])\b", re.I)
 
-# Explicitly junior signals — these override a lot of noise.
+# Explicitly junior signals. These override the seniority check, and are also
+# what lets a posting through when it states no years at all.
 JUNIOR_HINT = re.compile(
-    r"\b(intern(?!ational)|graduate|new ?grad|junior|entry|associate|"
-    r"campus|trainee|university|fresher|sde ?(?:1|i)\b|engineer ?(?:1|i)\b|"
-    r"founding)\b", re.I)
+    r"\b(graduate|new{_SEP}?grad|junior|jr\.?|entry{_SEP}?level|associate|"
+    r"campus|trainee|apprentice|university|fresher|"
+    rf"sde{_SEP}(?:1|i)|engineer{_SEP}(?:1|i)|developer{_SEP}(?:1|i)|"
+    r"founding)\b".replace("{_SEP}", _SEP), re.I)
 
-INDIA = re.compile(r"\b(india|bengaluru|bangalore|hyderabad|mumbai|pune|delhi|"
-                   r"gurugram|gurgaon|noida|chennai|remote)\b", re.I)
+# Bengaluru only. A role is kept if Bengaluru/Bangalore appears in its location.
+BENGALURU = re.compile(r"\b(bengaluru|bangalore|bangalore urban|whitefield|"
+                       r"garudachar\s*palya)\b", re.I)
 
-# Internships are excluded — Pragashri asked for full-time roles only.
+# Remote-only postings are excluded even when the company is Bengaluru-based.
+REMOTE_ONLY = re.compile(r"remote\s*only|\bwork from home\b|\bwfh\b|"
+                         r"remote\s*[·\-•]\s*everywhere|^remote$", re.I)
+
+# Internships are excluded — full-time roles only.
 IS_INTERNSHIP = re.compile(r"\bintern(ship)?\b", re.I)
 
+# The hard ceiling. A posting whose *minimum* stated requirement is above this
+# is dropped, however junior the title sounds.
+MAX_YEARS = 2
 
-def wanted(title: str, location: str = "") -> bool:
+# When a posting never states a number of years, do we keep it?
+# False would mean "give it the benefit of the doubt" — which is exactly how
+# 4- and 5-year roles leaked through, because senior postings often omit the
+# figure entirely. True means an unstated level is only acceptable if the title
+# is explicitly junior. Set to False if the board ever feels too empty.
+REQUIRE_EXPLICIT_YEARS = True
+
+# "4+ years", "3-5 years", "1 to 3 years", "minimum of 3 years", "4-6 YOE".
+YEARS = re.compile(
+    r"(\d{1,2})\s*(?:\+|plus)?\s*(?:(?:to|-|–|—)\s*(\d{1,2})\s*)?\+?\s*"
+    r"(?:yrs?\b|years?\b|yoe\b)", re.I)
+# "YOE" already carries the meaning, so it counts as its own context.
+YEARS_CONTEXT = re.compile(r"experien|yoe|background|track record", re.I)
+
+
+def min_years_required(text: str) -> int | None:
+    """Smallest number of years the text asks for, or None if it never says.
+
+    A description usually states several figures ("4+ years backend", "2+ years
+    with Python"). The floor is what actually gates an application, so we take
+    the minimum across all of them. Numbers not near an experience-flavoured
+    word are ignored, which keeps team sizes and founding dates out of it.
+    """
+    if not text:
+        return None
+    floors = []
+    for m in YEARS.finditer(text):
+        window = text[max(0, m.start() - 90):m.end() + 90]
+        if not YEARS_CONTEXT.search(window):
+            continue
+        try:
+            floors.append(int(m.group(1)))
+        except (TypeError, ValueError):
+            continue
+    return min(floors) if floors else None
+
+
+def assess(title: str, location: str = "", description: str = ""):
+    """Return (keep, years_required, reason).
+
+    `years_required` is None when the posting never says. That case used to be
+    treated as "probably fine" and it is how four- and five-year roles kept
+    reaching the board: plenty of senior postings simply never print a number.
+    Now an unverifiable posting is kept only when the title itself is explicitly
+    junior — Engineer I, Associate, Graduate, Founding. Otherwise it is dropped.
+    """
     if not title:
-        return False
+        return False, None, "no title"
     if IS_INTERNSHIP.search(title):
-        return False
+        return False, None, "internship"
     if not WANT.search(title):
-        return False
-    if TOO_SENIOR.search(title) and not JUNIOR_HINT.search(title):
-        return False
-    if location and not INDIA.search(location):
-        return False
-    return True
+        return False, None, "title not a backend/AI role"
+
+    junior = bool(JUNIOR_HINT.search(title))
+    if TOO_SENIOR.search(title) and not junior:
+        return False, None, "senior-level title"
+
+    if location:
+        if not BENGALURU.search(location):
+            return False, None, ("remote-only" if REMOTE_ONLY.search(location)
+                                 else f"not Bengaluru ({location})")
+
+    # Title first — some postings put the band right in it ("... | 4-6 YOE |").
+    years = min_years_required(title)
+    if years is None:
+        years = min_years_required(description)
+
+    if years is not None and years > MAX_YEARS:
+        return False, years, f"asks {years}+ years"
+
+    if years is None and REQUIRE_EXPLICIT_YEARS and not junior:
+        return False, None, "no experience level stated and title is not junior"
+
+    return True, years, "ok"
+
+
+def wanted(title: str, location: str = "", description: str = "") -> bool:
+    return assess(title, location, description)[0]
 
 
 def jid(url: str) -> str:
@@ -133,10 +217,24 @@ WELLFOUND_PAGES = [
 ]
 
 
+def strip_html(s: str) -> str:
+    import html as _html
+    return _html.unescape(re.sub(r"<[^>]+>", " ", s or ""))
+
+
+def exp_label(years: int | None) -> str:
+    if years is None:
+        return "junior title, no band stated"
+    if years == 0:
+        return "no experience required"
+    return f"{years} yr{'s' if years != 1 else ''} asked"
+
+
 def from_greenhouse() -> list[dict]:
     out = []
     for name, tok in GREENHOUSE:
-        raw = get(f"https://boards-api.greenhouse.io/v1/boards/{tok}/jobs")
+        # content=true so we can read the requirements, not just the title.
+        raw = get(f"https://boards-api.greenhouse.io/v1/boards/{tok}/jobs?content=true")
         if not raw:
             continue
         try:
@@ -146,13 +244,18 @@ def from_greenhouse() -> list[dict]:
         for j in jobs:
             loc = (j.get("location") or {}).get("name", "")
             title = j.get("title", "")
-            if not wanted(title, loc):
+            desc = strip_html(j.get("content", ""))
+            keep, years, why = assess(title, loc, desc)
+            if not keep:
+                if "years" in why:
+                    print(f"    dropped {name} '{title}' — {why}")
                 continue
             url = j.get("absolute_url", "")
             out.append(dict(id=jid(url), company=name, title=title, url=url,
                             source="Greenhouse", location=loc, comp="",
-                            experience="", posted=(j.get("first_published") or "")[:10]))
-        time.sleep(0.4)
+                            years_required=years, experience=exp_label(years),
+                            posted=(j.get("first_published") or "")[:10]))
+        time.sleep(0.5)
     return out
 
 
@@ -170,7 +273,12 @@ def from_lever() -> list[dict]:
             cats = j.get("categories") or {}
             loc = cats.get("location") or ""
             title = j.get("text", "")
-            if not wanted(title, loc):
+            desc = j.get("descriptionPlain", "") + " " + " ".join(
+                strip_html(l.get("content", "")) for l in (j.get("lists") or []))
+            keep, years, why = assess(title, loc, desc)
+            if not keep:
+                if "years" in why:
+                    print(f"    dropped {name} '{title}' — {why}")
                 continue
             url = j.get("hostedUrl", "")
             posted = ""
@@ -178,8 +286,9 @@ def from_lever() -> list[dict]:
                 posted = dt.datetime.utcfromtimestamp(j["createdAt"] / 1000).date().isoformat()
             out.append(dict(id=jid(url), company=name, title=title, url=url,
                             source="Lever", location=loc, comp="",
-                            experience="", posted=posted))
-        time.sleep(0.4)
+                            years_required=years, experience=exp_label(years),
+                            posted=posted))
+        time.sleep(0.5)
     return out
 
 
@@ -196,15 +305,20 @@ def from_ashby() -> list[dict]:
         for j in jobs:
             loc = j.get("location") or ""
             title = j.get("title", "")
-            if not wanted(title, loc):
+            desc = j.get("descriptionPlain") or strip_html(j.get("descriptionHtml", ""))
+            keep, years, why = assess(title, loc, desc)
+            if not keep:
+                if "years" in why:
+                    print(f"    dropped {name} '{title}' — {why}")
                 continue
             url = j.get("jobUrl") or j.get("applyUrl") or ""
             if not url:
                 continue
             out.append(dict(id=jid(url), company=name, title=title, url=url,
                             source="Ashby", location=loc, comp="",
-                            experience="", posted=(j.get("publishedAt") or "")[:10]))
-        time.sleep(0.4)
+                            years_required=years, experience=exp_label(years),
+                            posted=(j.get("publishedAt") or "")[:10]))
+        time.sleep(0.5)
     return out
 
 
@@ -216,38 +330,99 @@ WF_EXP = re.compile(r"(\d+)(?:-\d+)?\s*years?\s*of\s*exp", re.I)
 WF_COMP = re.compile(r"(₹[\d,.]+\s*[LK]?\s*[–-]\s*₹?[\d,.]+\s*[LK]?|\$[\d]+k\s*[–-]\s*\$?[\d]+k)")
 
 
+WF_LOC = re.compile(r"(Remote only|In office|Onsite or remote|Remote)\s*[•·]?\s*"
+                    r"([A-Za-z ]+(?:\+\d+)?)", re.I)
+
+# How many individual postings we're willing to open per run to check an
+# experience requirement the listing page didn't state. Keeps runtime sane.
+WF_DEEP_CHECK_BUDGET = 25
+
+
 def from_wellfound() -> list[dict]:
-    """Best effort. Wellfound may block CI runners; failure is not fatal."""
+    """Best effort. Wellfound may block CI runners; failure is not fatal.
+
+    Listing pages state years-of-experience only sometimes. When they don't we
+    open the posting itself and read the requirements — a title like "Backend
+    Engineer" with no tag turned out to want 4+ years, which is exactly the
+    kind of thing that must not reach the board.
+    """
     out, seen = [], set()
+    budget = WF_DEEP_CHECK_BUDGET
+
     for page in WELLFOUND_PAGES:
         html = get(page, timeout=30)
         if not html:
             print(f"  ! wellfound page unavailable: {page}", file=sys.stderr)
             continue
-        # Strip tags to a flat text stream we can scan for the metadata that
-        # trails each job link.
+
         for m in WF_JOB.finditer(html):
             path, num, title = m.group(1), m.group(2), m.group(3).strip()
             if num in seen:
                 continue
-            tail = html[m.end():m.end() + 700]
-            flat = re.sub(r"<[^>]+>", " ", tail)
-            exp_m = WF_EXP.search(flat)
+            tail = re.sub(r"<[^>]+>", " ", html[m.end():m.end() + 700])
+
+            loc_m = WF_LOC.search(tail)
+            location = " · ".join(loc_m.groups()).strip() if loc_m else ""
+
+            # Location gate first — it is the cheapest test.
+            if location:
+                if REMOTE_ONLY.search(location) and not BENGALURU.search(location):
+                    continue
+                if not BENGALURU.search(location):
+                    continue
+
+            # Structural checks that don't need the description.
+            if IS_INTERNSHIP.search(title) or not WANT.search(title):
+                continue
+            junior = bool(JUNIOR_HINT.search(title))
+            if TOO_SENIOR.search(title) and not junior:
+                continue
+
+            exp_m = WF_EXP.search(tail)
             years = int(exp_m.group(1)) if exp_m else None
-            if years is not None and years > 2:
+            if years is None:
+                years = min_years_required(title)
+            if years is not None and years > MAX_YEARS:
                 continue
-            if not wanted(title):
+
+            url = "https://wellfound.com" + path
+            company = ""
+
+            # No stated band on the listing: open the posting and read it.
+            if years is None:
+                if budget <= 0:
+                    print(f"    skipped '{title}' — deep-check budget spent")
+                    continue
+                budget -= 1
+                detail = get(url, timeout=25)
+                time.sleep(1.0)
+                if not detail:
+                    print(f"    skipped '{title}' — could not open posting")
+                    continue
+                body = re.sub(r"<[^>]+>", " ", detail)
+                years = min_years_required(body)
+                if years is not None and years > MAX_YEARS:
+                    print(f"    dropped '{title}' — posting asks {years}+ yrs")
+                    continue
+                if not BENGALURU.search(body[:5000]):
+                    continue
+                t_m = re.search(r"<title>([^<]+)</title>", detail)
+                if t_m and " at " in t_m.group(1):
+                    company = t_m.group(1).split(" at ", 1)[1].split("•")[0].strip()
+
+            # Still no number anywhere, and the title isn't explicitly junior.
+            # Leaving it in is how four- and five-year roles got through before.
+            if years is None and REQUIRE_EXPLICIT_YEARS and not junior:
+                print(f"    dropped '{title}' — no experience level stated anywhere")
                 continue
+
             seen.add(num)
-            comp_m = WF_COMP.search(flat)
+            comp_m = WF_COMP.search(tail)
             out.append(dict(
-                id=jid("https://wellfound.com" + path),
-                company="", title=title,
-                url="https://wellfound.com" + path,
-                source="Wellfound",
-                location="Bengaluru / remote India",
+                id=jid(url), company=company, title=title, url=url,
+                source="Wellfound", location=location or "Bengaluru",
                 comp=comp_m.group(1) if comp_m else "",
-                experience=f"{years} yrs listed" if years is not None else "not stated",
+                years_required=years, experience=exp_label(years),
                 posted=""))
         time.sleep(1.5)
     return out

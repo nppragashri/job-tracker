@@ -64,6 +64,8 @@ button:disabled { opacity: 0.55; cursor: default; }
   vertical-align: 2px; }
 .tag.new { background: #fdeee2; color: var(--new); }
 .tag.ok { background: #e8f6ec; color: var(--ok); }
+.tag.yrs { background: #eef3fb; color: var(--accent); text-transform: none;
+  letter-spacing: 0; font-weight: 600; }
 
 table { width: 100%; border-collapse: collapse; background: #fff; font-size: 13.5px;
   border: 1px solid var(--line); border-radius: 10px; overflow: hidden; }

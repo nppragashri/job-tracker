@@ -23,6 +23,12 @@ jobs:
       - name: Fetch current listings
         run: python scripts/fetch_jobs.py
 
+      - name: Audit the result
+        # Fails the run if anything above the experience cap, outside Bengaluru,
+        # or unverifiable made it into the file. Better a red build than a bad
+        # role on the board.
+        run: python scripts/audit.py
+
       - name: Commit if anything changed
         run: |
           git config user.name  "job-tracker bot"
