@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>My applications</title>
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<div class="wrap">
+
+  <header class="top">
+    <div>
+      <h1>My applications</h1>
+      <p class="sub">Everything marked applied on the board, with where each one stands</p>
+    </div>
+    <nav>
+      <a href="index.html">← Board</a>
+      <a class="here" href="applied.html">My applications</a>
+    </nav>
+  </header>
+
+  <p class="stats" id="stats">Loading…</p>
+
+  <div class="bar">
+    <button class="ghost" id="export-csv">Export CSV</button>
+    <button class="ghost" id="export-json">Export backup</button>
+    <label class="btn ghost" for="import-json" style="cursor:pointer">Import backup</label>
+    <input type="file" id="import-json" accept="application/json" hidden>
+  </div>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Applied</th><th>Company &amp; role</th><th>Status</th>
+        <th>Resume sent</th><th>Notes</th><th></th>
+      </tr>
+    </thead>
+    <tbody id="rows"></tbody>
+  </table>
+  <p class="empty" id="empty" hidden>
+    Nothing logged yet. Go to the <a href="index.html">board</a> and hit
+    “Mark as applied” on anything you send off.
+  </p>
+
+  <div class="note">
+    <b>Keep a backup.</b> This list lives in your browser's local storage. Clearing site data,
+    switching browser, or using a different machine will lose it. <b>Export backup</b> writes a
+    small JSON file; <b>Import backup</b> merges it back in.
+  </div>
+
+  <footer>
+    Status values run To apply → Applied → Online assessment → Interview → Offer, plus Rejected,
+    No response and Not interested. The number in brackets next to each date is days elapsed —
+    anything past about three weeks with no reply is usually worth a follow-up or writing off.
+  </footer>
+
+</div>
+<script src="assets/app.js"></script>
+<script>initApplied();</script>
+</body>
+</html>

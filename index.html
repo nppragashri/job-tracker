@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Job board — 0–2 yr backend &amp; AI, India</title>
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<div class="wrap">
+
+  <header class="top">
+    <div>
+      <h1>Open roles — backend &amp; AI, 0–2 years</h1>
+      <p class="sub">Bengaluru and remote India · refreshed automatically every morning</p>
+    </div>
+    <nav>
+      <a class="here" href="index.html">Board</a>
+      <a href="applied.html">My applications →</a>
+    </nav>
+  </header>
+
+  <div class="bar">
+    <input type="search" id="q" placeholder="Filter by company, role, keyword…" aria-label="Search roles">
+    <select id="f-source" aria-label="Filter by source"><option value="">All sources</option></select>
+    <label class="chk"><input type="checkbox" id="f-new"> New only</label>
+    <label class="chk"><input type="checkbox" id="f-hide"> Hide applied</label>
+    <button id="refresh">Refresh</button>
+  </div>
+
+  <p class="stats" id="stats">Loading…</p>
+  <p class="stamp" id="stamp"></p>
+
+  <div id="list" class="list"></div>
+  <p class="empty" id="empty" hidden>Nothing matches those filters.</p>
+
+  <div class="note">
+    <b>How the refresh works.</b> A GitHub Action runs every morning at 06:00 IST, pulls the
+    Greenhouse, Lever and Ashby job feeds plus the Wellfound listings, filters out anything senior
+    or internship-level, and commits the result. <b>Refresh</b> pulls the newest committed list —
+    it does not scrape live, because a page served from GitHub Pages is not allowed to fetch other
+    sites directly. Roles that appeared in the most recent run are badged <span class="tag new">new</span>.
+  </div>
+
+  <footer>
+    Marking a role applied saves it in this browser only — nothing is uploaded anywhere.
+    Use <b>Export</b> on the applications page to keep a copy, and re-import it if you switch
+    browser or machine.
+  </footer>
+
+</div>
+<script src="assets/app.js"></script>
+<script>initBoard();</script>
+</body>
+</html>

@@ -1,0 +1,36 @@
+name: Refresh job list
+
+on:
+  schedule:
+    # 00:30 UTC = 06:00 IST, every day.
+    # GitHub's scheduler is best-effort and can lag by several minutes.
+    - cron: "30 0 * * *"
+  workflow_dispatch:          # lets you trigger a run by hand from the Actions tab
+
+permissions:
+  contents: write             # needed to commit the refreshed data back
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Fetch current listings
+        run: python scripts/fetch_jobs.py
+
+      - name: Commit if anything changed
+        run: |
+          git config user.name  "job-tracker bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/
+          if git diff --staged --quiet; then
+            echo "No change in listings today."
+          else
+            git commit -m "Refresh listings $(date -u +%Y-%m-%d)"
+            git push
+          fi
