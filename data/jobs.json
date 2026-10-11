@@ -1,19 +1,33 @@
 {
-  "generated_at": "2026-10-10T06:14:07+00:00",
-  "generated_date": "2026-10-10",
+  "generated_at": "2026-10-11T06:12:31+00:00",
+  "generated_date": "2026-10-11",
   "counts": {
-    "total": 20,
-    "new_today": 2,
-    "closed_since_last_run": 1,
+    "total": 21,
+    "new_today": 1,
+    "closed_since_last_run": 0,
     "by_source": {
       "Greenhouse": 2,
       "Lever": 2,
       "Ashby": 0,
-      "Wellfound": 16
+      "Wellfound": 17
     }
   },
   "note": "Roles filtered to non-senior, non-internship titles in India or remote. Wellfound entries are best-effort scrapes and may be missing if the run was blocked.",
   "jobs": [
+    {
+      "id": "1c434ac16d78",
+      "company": "Bureau",
+      "title": "Data Engineer",
+      "url": "https://wellfound.com/jobs/4751243-data-engineer",
+      "source": "Wellfound",
+      "location": "Bengaluru",
+      "comp": "",
+      "years_required": 1,
+      "experience": "1 yr asked",
+      "posted": "",
+      "first_seen": "2026-10-11",
+      "is_new": true
+    },
     {
       "id": "b0183897fd1b",
       "company": "AffinityAnswers",
@@ -26,21 +40,7 @@
       "experience": "2 yrs asked",
       "posted": "",
       "first_seen": "2026-10-10",
-      "is_new": true
-    },
-    {
-      "id": "35ff817319ae",
-      "company": "Zenskar",
-      "title": "SDE-1",
-      "url": "https://wellfound.com/jobs/4821657-sde-1",
-      "source": "Wellfound",
-      "location": "Bengaluru",
-      "comp": "",
-      "years_required": 1,
-      "experience": "1 yr asked",
-      "posted": "",
-      "first_seen": "2026-10-10",
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "3bc631a91103",
@@ -232,8 +232,8 @@
       "source": "Wellfound",
       "location": "Bengaluru",
       "comp": "",
-      "years_required": 2,
-      "experience": "2 yrs asked",
+      "years_required": null,
+      "experience": "junior title, no band stated",
       "posted": "",
       "first_seen": "2026-09-11",
       "is_new": false
@@ -264,6 +264,20 @@
       "experience": "2 yrs asked",
       "posted": "",
       "first_seen": "2026-09-24",
+      "is_new": false
+    },
+    {
+      "id": "35ff817319ae",
+      "company": "Zenskar",
+      "title": "SDE-1",
+      "url": "https://wellfound.com/jobs/4821657-sde-1",
+      "source": "Wellfound",
+      "location": "Bengaluru",
+      "comp": "",
+      "years_required": 1,
+      "experience": "1 yr asked",
+      "posted": "",
+      "first_seen": "2026-10-10",
       "is_new": false
     },
     {
