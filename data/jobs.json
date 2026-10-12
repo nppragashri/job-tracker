@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-11T06:12:31+00:00",
-  "generated_date": "2026-10-11",
+  "generated_at": "2026-10-12T06:20:26+00:00",
+  "generated_date": "2026-10-12",
   "counts": {
     "total": 21,
-    "new_today": 1,
+    "new_today": 0,
     "closed_since_last_run": 0,
     "by_source": {
       "Greenhouse": 2,
@@ -14,20 +14,6 @@
   },
   "note": "Roles filtered to non-senior, non-internship titles in India or remote. Wellfound entries are best-effort scrapes and may be missing if the run was blocked.",
   "jobs": [
-    {
-      "id": "1c434ac16d78",
-      "company": "Bureau",
-      "title": "Data Engineer",
-      "url": "https://wellfound.com/jobs/4751243-data-engineer",
-      "source": "Wellfound",
-      "location": "Bengaluru",
-      "comp": "",
-      "years_required": 1,
-      "experience": "1 yr asked",
-      "posted": "",
-      "first_seen": "2026-10-11",
-      "is_new": true
-    },
     {
       "id": "b0183897fd1b",
       "company": "AffinityAnswers",
@@ -54,6 +40,20 @@
       "experience": "1 yr asked",
       "posted": "",
       "first_seen": "2026-09-20",
+      "is_new": false
+    },
+    {
+      "id": "1c434ac16d78",
+      "company": "Bureau",
+      "title": "Data Engineer",
+      "url": "https://wellfound.com/jobs/4751243-data-engineer",
+      "source": "Wellfound",
+      "location": "Bengaluru",
+      "comp": "",
+      "years_required": 1,
+      "experience": "1 yr asked",
+      "posted": "",
+      "first_seen": "2026-10-11",
       "is_new": false
     },
     {
