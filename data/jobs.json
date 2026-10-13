@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-12T06:20:26+00:00",
-  "generated_date": "2026-10-12",
+  "generated_at": "2026-10-13T06:59:58+00:00",
+  "generated_date": "2026-10-13",
   "counts": {
     "total": 21,
-    "new_today": 0,
-    "closed_since_last_run": 0,
+    "new_today": 4,
+    "closed_since_last_run": 4,
     "by_source": {
       "Greenhouse": 2,
       "Lever": 2,
@@ -14,6 +14,62 @@
   },
   "note": "Roles filtered to non-senior, non-internship titles in India or remote. Wellfound entries are best-effort scrapes and may be missing if the run was blocked.",
   "jobs": [
+    {
+      "id": "5bf5510ce344",
+      "company": "ChiefPulse",
+      "title": "Founding Engineer (AI / Multi-Agent Systems)",
+      "url": "https://wellfound.com/jobs/4521046-co-founder-gtm-sales-clone",
+      "source": "Wellfound",
+      "location": "Bengaluru",
+      "comp": "",
+      "years_required": null,
+      "experience": "junior title, no band stated",
+      "posted": "",
+      "first_seen": "2026-10-13",
+      "is_new": true
+    },
+    {
+      "id": "6aa8613a7972",
+      "company": "DafoTalk",
+      "title": "Backend Engineer (Python, Django, WebRTC/Livekit)",
+      "url": "https://wellfound.com/jobs/4634146-backend-engineer-python-django-clone",
+      "source": "Wellfound",
+      "location": "Bengaluru",
+      "comp": "",
+      "years_required": 2,
+      "experience": "2 yrs asked",
+      "posted": "",
+      "first_seen": "2026-10-13",
+      "is_new": true
+    },
+    {
+      "id": "b95dfe8dc97e",
+      "company": "Kulfi",
+      "title": "Software Engineer I - Product / Full-Stack",
+      "url": "https://wellfound.com/jobs/4824619-software-engineer-i-product-full-stack",
+      "source": "Wellfound",
+      "location": "Bengaluru",
+      "comp": "",
+      "years_required": 0,
+      "experience": "no experience required",
+      "posted": "",
+      "first_seen": "2026-10-13",
+      "is_new": true
+    },
+    {
+      "id": "8f95221051d9",
+      "company": "timepay.ai",
+      "title": "Voice AI Engineer",
+      "url": "https://wellfound.com/jobs/4824688-voice-ai-engineer",
+      "source": "Wellfound",
+      "location": "Bengaluru",
+      "comp": "",
+      "years_required": 2,
+      "experience": "2 yrs asked",
+      "posted": "",
+      "first_seen": "2026-10-13",
+      "is_new": true
+    },
     {
       "id": "b0183897fd1b",
       "company": "AffinityAnswers",
@@ -40,20 +96,6 @@
       "experience": "1 yr asked",
       "posted": "",
       "first_seen": "2026-09-20",
-      "is_new": false
-    },
-    {
-      "id": "1c434ac16d78",
-      "company": "Bureau",
-      "title": "Data Engineer",
-      "url": "https://wellfound.com/jobs/4751243-data-engineer",
-      "source": "Wellfound",
-      "location": "Bengaluru",
-      "comp": "",
-      "years_required": 1,
-      "experience": "1 yr asked",
-      "posted": "",
-      "first_seen": "2026-10-11",
       "is_new": false
     },
     {
@@ -99,34 +141,6 @@
       "is_new": false
     },
     {
-      "id": "feaeee44c771",
-      "company": "Evam Labs",
-      "title": "AI Engineer",
-      "url": "https://wellfound.com/jobs/4628490-ai-engineer",
-      "source": "Wellfound",
-      "location": "Bengaluru",
-      "comp": "",
-      "years_required": 1,
-      "experience": "1 yr asked",
-      "posted": "",
-      "first_seen": "2026-10-08",
-      "is_new": false
-    },
-    {
-      "id": "448ec4ca7377",
-      "company": "Evam Labs",
-      "title": "AI Engineer",
-      "url": "https://wellfound.com/jobs/4544682-ai-engineer",
-      "source": "Wellfound",
-      "location": "Bengaluru",
-      "comp": "",
-      "years_required": 1,
-      "experience": "1 yr asked",
-      "posted": "",
-      "first_seen": "2026-10-08",
-      "is_new": false
-    },
-    {
       "id": "e2d91a832a4c",
       "company": "FOXO",
       "title": "Backend Engineer (Python)",
@@ -138,20 +152,6 @@
       "experience": "2 yrs asked",
       "posted": "",
       "first_seen": "2026-10-04",
-      "is_new": false
-    },
-    {
-      "id": "69cec68d9788",
-      "company": "Matrix One",
-      "title": "Full Stack Engineer - Spring Boot + React",
-      "url": "https://wellfound.com/jobs/3976865-full-stack-engineer-spring-boot-react",
-      "source": "Wellfound",
-      "location": "Bengaluru",
-      "comp": "",
-      "years_required": 1,
-      "experience": "1 yr asked",
-      "posted": "",
-      "first_seen": "2026-10-02",
       "is_new": false
     },
     {
