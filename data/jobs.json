@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-13T06:59:58+00:00",
-  "generated_date": "2026-10-13",
+  "generated_at": "2026-10-14T05:13:43+00:00",
+  "generated_date": "2026-10-14",
   "counts": {
     "total": 21,
-    "new_today": 4,
-    "closed_since_last_run": 4,
+    "new_today": 1,
+    "closed_since_last_run": 1,
     "by_source": {
       "Greenhouse": 2,
       "Lever": 2,
@@ -15,59 +15,17 @@
   "note": "Roles filtered to non-senior, non-internship titles in India or remote. Wellfound entries are best-effort scrapes and may be missing if the run was blocked.",
   "jobs": [
     {
-      "id": "5bf5510ce344",
-      "company": "ChiefPulse",
-      "title": "Founding Engineer (AI / Multi-Agent Systems)",
-      "url": "https://wellfound.com/jobs/4521046-co-founder-gtm-sales-clone",
-      "source": "Wellfound",
-      "location": "Bengaluru",
-      "comp": "",
-      "years_required": null,
-      "experience": "junior title, no band stated",
-      "posted": "",
-      "first_seen": "2026-10-13",
-      "is_new": true
-    },
-    {
-      "id": "6aa8613a7972",
-      "company": "DafoTalk",
-      "title": "Backend Engineer (Python, Django, WebRTC/Livekit)",
-      "url": "https://wellfound.com/jobs/4634146-backend-engineer-python-django-clone",
-      "source": "Wellfound",
-      "location": "Bengaluru",
-      "comp": "",
-      "years_required": 2,
-      "experience": "2 yrs asked",
-      "posted": "",
-      "first_seen": "2026-10-13",
-      "is_new": true
-    },
-    {
-      "id": "b95dfe8dc97e",
-      "company": "Kulfi",
-      "title": "Software Engineer I - Product / Full-Stack",
-      "url": "https://wellfound.com/jobs/4824619-software-engineer-i-product-full-stack",
+      "id": "2fc5e01bed07",
+      "company": "FreightFox",
+      "title": "Java Backend Engineer( 0-2 yrs Exp only )",
+      "url": "https://wellfound.com/jobs/2607054-java-backend-engineer-0-2-yrs-exp-only",
       "source": "Wellfound",
       "location": "Bengaluru",
       "comp": "",
       "years_required": 0,
       "experience": "no experience required",
       "posted": "",
-      "first_seen": "2026-10-13",
-      "is_new": true
-    },
-    {
-      "id": "8f95221051d9",
-      "company": "timepay.ai",
-      "title": "Voice AI Engineer",
-      "url": "https://wellfound.com/jobs/4824688-voice-ai-engineer",
-      "source": "Wellfound",
-      "location": "Bengaluru",
-      "comp": "",
-      "years_required": 2,
-      "experience": "2 yrs asked",
-      "posted": "",
-      "first_seen": "2026-10-13",
+      "first_seen": "2026-10-14",
       "is_new": true
     },
     {
@@ -96,6 +54,34 @@
       "experience": "1 yr asked",
       "posted": "",
       "first_seen": "2026-09-20",
+      "is_new": false
+    },
+    {
+      "id": "5bf5510ce344",
+      "company": "ChiefPulse",
+      "title": "Founding Engineer (AI / Multi-Agent Systems)",
+      "url": "https://wellfound.com/jobs/4521046-co-founder-gtm-sales-clone",
+      "source": "Wellfound",
+      "location": "Bengaluru",
+      "comp": "",
+      "years_required": null,
+      "experience": "junior title, no band stated",
+      "posted": "",
+      "first_seen": "2026-10-13",
+      "is_new": false
+    },
+    {
+      "id": "6aa8613a7972",
+      "company": "DafoTalk",
+      "title": "Backend Engineer (Python, Django, WebRTC/Livekit)",
+      "url": "https://wellfound.com/jobs/4634146-backend-engineer-python-django-clone",
+      "source": "Wellfound",
+      "location": "Bengaluru",
+      "comp": "",
+      "years_required": 2,
+      "experience": "2 yrs asked",
+      "posted": "",
+      "first_seen": "2026-10-13",
       "is_new": false
     },
     {
@@ -152,6 +138,20 @@
       "experience": "2 yrs asked",
       "posted": "",
       "first_seen": "2026-10-04",
+      "is_new": false
+    },
+    {
+      "id": "b95dfe8dc97e",
+      "company": "Kulfi",
+      "title": "Software Engineer I - Product / Full-Stack",
+      "url": "https://wellfound.com/jobs/4824619-software-engineer-i-product-full-stack",
+      "source": "Wellfound",
+      "location": "Bengaluru",
+      "comp": "",
+      "years_required": 0,
+      "experience": "no experience required",
+      "posted": "",
+      "first_seen": "2026-10-13",
       "is_new": false
     },
     {
@@ -239,20 +239,6 @@
       "is_new": false
     },
     {
-      "id": "3225072cce23",
-      "company": "Shipthis Inc",
-      "title": "Software Engineer",
-      "url": "https://wellfound.com/jobs/4748564-software-engineer",
-      "source": "Wellfound",
-      "location": "Bengaluru",
-      "comp": "",
-      "years_required": 1,
-      "experience": "1 yr asked",
-      "posted": "",
-      "first_seen": "2026-09-22",
-      "is_new": false
-    },
-    {
       "id": "215214d46998",
       "company": "Stylework",
       "title": "Junior full stack engineer",
@@ -306,6 +292,20 @@
       "experience": "1 yr asked",
       "posted": "2026-08-17",
       "first_seen": "2026-08-18",
+      "is_new": false
+    },
+    {
+      "id": "8f95221051d9",
+      "company": "timepay.ai",
+      "title": "Voice AI Engineer",
+      "url": "https://wellfound.com/jobs/4824688-voice-ai-engineer",
+      "source": "Wellfound",
+      "location": "Bengaluru",
+      "comp": "",
+      "years_required": 2,
+      "experience": "2 yrs asked",
+      "posted": "",
+      "first_seen": "2026-10-13",
       "is_new": false
     }
   ]
