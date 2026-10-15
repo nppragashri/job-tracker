@@ -1,31 +1,45 @@
 {
-  "generated_at": "2026-10-14T05:13:43+00:00",
-  "generated_date": "2026-10-14",
+  "generated_at": "2026-10-15T05:01:11+00:00",
+  "generated_date": "2026-10-15",
   "counts": {
-    "total": 21,
-    "new_today": 1,
-    "closed_since_last_run": 1,
+    "total": 20,
+    "new_today": 2,
+    "closed_since_last_run": 3,
     "by_source": {
       "Greenhouse": 2,
       "Lever": 2,
       "Ashby": 0,
-      "Wellfound": 17
+      "Wellfound": 16
     }
   },
   "note": "Roles filtered to non-senior, non-internship titles in India or remote. Wellfound entries are best-effort scrapes and may be missing if the run was blocked.",
   "jobs": [
     {
-      "id": "2fc5e01bed07",
-      "company": "FreightFox",
-      "title": "Java Backend Engineer( 0-2 yrs Exp only )",
-      "url": "https://wellfound.com/jobs/2607054-java-backend-engineer-0-2-yrs-exp-only",
+      "id": "69cec68d9788",
+      "company": "Matrix One",
+      "title": "Full Stack Engineer - Spring Boot + React",
+      "url": "https://wellfound.com/jobs/3976865-full-stack-engineer-spring-boot-react",
       "source": "Wellfound",
       "location": "Bengaluru",
       "comp": "",
-      "years_required": 0,
-      "experience": "no experience required",
+      "years_required": 1,
+      "experience": "1 yr asked",
       "posted": "",
-      "first_seen": "2026-10-14",
+      "first_seen": "2026-10-15",
+      "is_new": true
+    },
+    {
+      "id": "3225072cce23",
+      "company": "Shipthis Inc",
+      "title": "Software Engineer",
+      "url": "https://wellfound.com/jobs/4748564-software-engineer",
+      "source": "Wellfound",
+      "location": "Bengaluru",
+      "comp": "",
+      "years_required": 1,
+      "experience": "1 yr asked",
+      "posted": "",
+      "first_seen": "2026-10-15",
       "is_new": true
     },
     {
@@ -54,20 +68,6 @@
       "experience": "1 yr asked",
       "posted": "",
       "first_seen": "2026-09-20",
-      "is_new": false
-    },
-    {
-      "id": "5bf5510ce344",
-      "company": "ChiefPulse",
-      "title": "Founding Engineer (AI / Multi-Agent Systems)",
-      "url": "https://wellfound.com/jobs/4521046-co-founder-gtm-sales-clone",
-      "source": "Wellfound",
-      "location": "Bengaluru",
-      "comp": "",
-      "years_required": null,
-      "experience": "junior title, no band stated",
-      "posted": "",
-      "first_seen": "2026-10-13",
       "is_new": false
     },
     {
@@ -138,6 +138,20 @@
       "experience": "2 yrs asked",
       "posted": "",
       "first_seen": "2026-10-04",
+      "is_new": false
+    },
+    {
+      "id": "2fc5e01bed07",
+      "company": "FreightFox",
+      "title": "Java Backend Engineer( 0-2 yrs Exp only )",
+      "url": "https://wellfound.com/jobs/2607054-java-backend-engineer-0-2-yrs-exp-only",
+      "source": "Wellfound",
+      "location": "Bengaluru",
+      "comp": "",
+      "years_required": 0,
+      "experience": "no experience required",
+      "posted": "",
+      "first_seen": "2026-10-14",
       "is_new": false
     },
     {
@@ -236,34 +250,6 @@
       "experience": "junior title, no band stated",
       "posted": "",
       "first_seen": "2026-09-11",
-      "is_new": false
-    },
-    {
-      "id": "215214d46998",
-      "company": "Stylework",
-      "title": "Junior full stack engineer",
-      "url": "https://wellfound.com/jobs/4750168-junior-full-stack-engineer",
-      "source": "Wellfound",
-      "location": "Bengaluru",
-      "comp": "",
-      "years_required": 2,
-      "experience": "2 yrs asked",
-      "posted": "",
-      "first_seen": "2026-09-24",
-      "is_new": false
-    },
-    {
-      "id": "35ff817319ae",
-      "company": "Zenskar",
-      "title": "SDE-1",
-      "url": "https://wellfound.com/jobs/4821657-sde-1",
-      "source": "Wellfound",
-      "location": "Bengaluru",
-      "comp": "",
-      "years_required": 1,
-      "experience": "1 yr asked",
-      "posted": "",
-      "first_seen": "2026-10-10",
       "is_new": false
     },
     {
