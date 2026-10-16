@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-15T05:01:11+00:00",
-  "generated_date": "2026-10-15",
+  "generated_at": "2026-10-16T04:51:13+00:00",
+  "generated_date": "2026-10-16",
   "counts": {
     "total": 20,
-    "new_today": 2,
+    "new_today": 3,
     "closed_since_last_run": 3,
     "by_source": {
       "Greenhouse": 2,
@@ -15,31 +15,45 @@
   "note": "Roles filtered to non-senior, non-internship titles in India or remote. Wellfound entries are best-effort scrapes and may be missing if the run was blocked.",
   "jobs": [
     {
-      "id": "69cec68d9788",
-      "company": "Matrix One",
-      "title": "Full Stack Engineer - Spring Boot + React",
-      "url": "https://wellfound.com/jobs/3976865-full-stack-engineer-spring-boot-react",
+      "id": "feaeee44c771",
+      "company": "Evam Labs",
+      "title": "AI Engineer",
+      "url": "https://wellfound.com/jobs/4628490-ai-engineer",
       "source": "Wellfound",
       "location": "Bengaluru",
       "comp": "",
       "years_required": 1,
       "experience": "1 yr asked",
       "posted": "",
-      "first_seen": "2026-10-15",
+      "first_seen": "2026-10-16",
       "is_new": true
     },
     {
-      "id": "3225072cce23",
-      "company": "Shipthis Inc",
-      "title": "Software Engineer",
-      "url": "https://wellfound.com/jobs/4748564-software-engineer",
+      "id": "215214d46998",
+      "company": "Stylework",
+      "title": "Junior full stack engineer",
+      "url": "https://wellfound.com/jobs/4750168-junior-full-stack-engineer",
+      "source": "Wellfound",
+      "location": "Bengaluru",
+      "comp": "",
+      "years_required": 2,
+      "experience": "2 yrs asked",
+      "posted": "",
+      "first_seen": "2026-10-16",
+      "is_new": true
+    },
+    {
+      "id": "35ff817319ae",
+      "company": "Zenskar",
+      "title": "SDE-1",
+      "url": "https://wellfound.com/jobs/4821657-sde-1",
       "source": "Wellfound",
       "location": "Bengaluru",
       "comp": "",
       "years_required": 1,
       "experience": "1 yr asked",
       "posted": "",
-      "first_seen": "2026-10-15",
+      "first_seen": "2026-10-16",
       "is_new": true
     },
     {
@@ -68,20 +82,6 @@
       "experience": "1 yr asked",
       "posted": "",
       "first_seen": "2026-09-20",
-      "is_new": false
-    },
-    {
-      "id": "6aa8613a7972",
-      "company": "DafoTalk",
-      "title": "Backend Engineer (Python, Django, WebRTC/Livekit)",
-      "url": "https://wellfound.com/jobs/4634146-backend-engineer-python-django-clone",
-      "source": "Wellfound",
-      "location": "Bengaluru",
-      "comp": "",
-      "years_required": 2,
-      "experience": "2 yrs asked",
-      "posted": "",
-      "first_seen": "2026-10-13",
       "is_new": false
     },
     {
@@ -169,6 +169,20 @@
       "is_new": false
     },
     {
+      "id": "69cec68d9788",
+      "company": "Matrix One",
+      "title": "Full Stack Engineer - Spring Boot + React",
+      "url": "https://wellfound.com/jobs/3976865-full-stack-engineer-spring-boot-react",
+      "source": "Wellfound",
+      "location": "Bengaluru",
+      "comp": "",
+      "years_required": 1,
+      "experience": "1 yr asked",
+      "posted": "",
+      "first_seen": "2026-10-15",
+      "is_new": false
+    },
+    {
       "id": "9853d3b72656",
       "company": "MediaMelon",
       "title": "Backend engineer (Java+Flink)",
@@ -180,20 +194,6 @@
       "experience": "2 yrs asked",
       "posted": "",
       "first_seen": "2026-10-03",
-      "is_new": false
-    },
-    {
-      "id": "4af6dd52abd8",
-      "company": "Metaforms",
-      "title": "AI Security &amp; Platform Engineer",
-      "url": "https://wellfound.com/jobs/4797060-ai-security-platform-engineer",
-      "source": "Wellfound",
-      "location": "Bengaluru",
-      "comp": "",
-      "years_required": 2,
-      "experience": "2 yrs asked",
-      "posted": "",
-      "first_seen": "2026-10-09",
       "is_new": false
     },
     {
@@ -239,17 +239,17 @@
       "is_new": false
     },
     {
-      "id": "a0ae47092053",
-      "company": "Shin AI Labs",
-      "title": "Founding Engineer - Electron + Node.js",
-      "url": "https://wellfound.com/jobs/4248509-founding-engineer-electron-node-js",
+      "id": "3225072cce23",
+      "company": "Shipthis Inc",
+      "title": "Software Engineer",
+      "url": "https://wellfound.com/jobs/4748564-software-engineer",
       "source": "Wellfound",
       "location": "Bengaluru",
       "comp": "",
-      "years_required": null,
-      "experience": "junior title, no band stated",
+      "years_required": 1,
+      "experience": "1 yr asked",
       "posted": "",
-      "first_seen": "2026-09-11",
+      "first_seen": "2026-10-15",
       "is_new": false
     },
     {
