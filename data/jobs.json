@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-16T04:51:13+00:00",
-  "generated_date": "2026-10-16",
+  "generated_at": "2026-10-17T04:51:34+00:00",
+  "generated_date": "2026-10-17",
   "counts": {
-    "total": 20,
-    "new_today": 3,
+    "total": 19,
+    "new_today": 2,
     "closed_since_last_run": 3,
     "by_source": {
-      "Greenhouse": 2,
+      "Greenhouse": 1,
       "Lever": 2,
       "Ashby": 0,
       "Wellfound": 16
@@ -15,45 +15,31 @@
   "note": "Roles filtered to non-senior, non-internship titles in India or remote. Wellfound entries are best-effort scrapes and may be missing if the run was blocked.",
   "jobs": [
     {
-      "id": "feaeee44c771",
-      "company": "Evam Labs",
-      "title": "AI Engineer",
-      "url": "https://wellfound.com/jobs/4628490-ai-engineer",
-      "source": "Wellfound",
-      "location": "Bengaluru",
-      "comp": "",
-      "years_required": 1,
-      "experience": "1 yr asked",
-      "posted": "",
-      "first_seen": "2026-10-16",
-      "is_new": true
-    },
-    {
-      "id": "215214d46998",
-      "company": "Stylework",
-      "title": "Junior full stack engineer",
-      "url": "https://wellfound.com/jobs/4750168-junior-full-stack-engineer",
+      "id": "4af6dd52abd8",
+      "company": "Metaforms",
+      "title": "AI Security &amp; Platform Engineer",
+      "url": "https://wellfound.com/jobs/4797060-ai-security-platform-engineer",
       "source": "Wellfound",
       "location": "Bengaluru",
       "comp": "",
       "years_required": 2,
       "experience": "2 yrs asked",
       "posted": "",
-      "first_seen": "2026-10-16",
+      "first_seen": "2026-10-17",
       "is_new": true
     },
     {
-      "id": "35ff817319ae",
-      "company": "Zenskar",
-      "title": "SDE-1",
-      "url": "https://wellfound.com/jobs/4821657-sde-1",
+      "id": "6d1e8c0cb7ed",
+      "company": "Zynnex AI",
+      "title": "Founding AI Engineer",
+      "url": "https://wellfound.com/jobs/4849705-founding-ai-engineer",
       "source": "Wellfound",
       "location": "Bengaluru",
       "comp": "",
-      "years_required": 1,
-      "experience": "1 yr asked",
+      "years_required": null,
+      "experience": "junior title, no band stated",
       "posted": "",
-      "first_seen": "2026-10-16",
+      "first_seen": "2026-10-17",
       "is_new": true
     },
     {
@@ -141,20 +127,6 @@
       "is_new": false
     },
     {
-      "id": "2fc5e01bed07",
-      "company": "FreightFox",
-      "title": "Java Backend Engineer( 0-2 yrs Exp only )",
-      "url": "https://wellfound.com/jobs/2607054-java-backend-engineer-0-2-yrs-exp-only",
-      "source": "Wellfound",
-      "location": "Bengaluru",
-      "comp": "",
-      "years_required": 0,
-      "experience": "no experience required",
-      "posted": "",
-      "first_seen": "2026-10-14",
-      "is_new": false
-    },
-    {
       "id": "b95dfe8dc97e",
       "company": "Kulfi",
       "title": "Software Engineer I - Product / Full-Stack",
@@ -225,20 +197,6 @@
       "is_new": false
     },
     {
-      "id": "dd9121f2019e",
-      "company": "Rubrik",
-      "title": "Software Engineer- SaaS O365",
-      "url": "https://www.rubrik.com/company/careers/departments/job.8256407?gh_jid=8256407",
-      "source": "Greenhouse",
-      "location": "Bangalore ",
-      "comp": "",
-      "years_required": 0,
-      "experience": "no experience required",
-      "posted": "2026-10-06",
-      "first_seen": "2026-10-07",
-      "is_new": false
-    },
-    {
       "id": "3225072cce23",
       "company": "Shipthis Inc",
       "title": "Software Engineer",
@@ -250,6 +208,34 @@
       "experience": "1 yr asked",
       "posted": "",
       "first_seen": "2026-10-15",
+      "is_new": false
+    },
+    {
+      "id": "215214d46998",
+      "company": "Stylework",
+      "title": "Junior full stack engineer",
+      "url": "https://wellfound.com/jobs/4750168-junior-full-stack-engineer",
+      "source": "Wellfound",
+      "location": "Bengaluru",
+      "comp": "",
+      "years_required": 2,
+      "experience": "2 yrs asked",
+      "posted": "",
+      "first_seen": "2026-10-16",
+      "is_new": false
+    },
+    {
+      "id": "35ff817319ae",
+      "company": "Zenskar",
+      "title": "SDE-1",
+      "url": "https://wellfound.com/jobs/4821657-sde-1",
+      "source": "Wellfound",
+      "location": "Bengaluru",
+      "comp": "",
+      "years_required": 1,
+      "experience": "1 yr asked",
+      "posted": "",
+      "first_seen": "2026-10-16",
       "is_new": false
     },
     {
