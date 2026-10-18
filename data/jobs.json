@@ -1,45 +1,31 @@
 {
-  "generated_at": "2026-10-17T04:51:34+00:00",
-  "generated_date": "2026-10-17",
+  "generated_at": "2026-10-18T04:57:30+00:00",
+  "generated_date": "2026-10-18",
   "counts": {
     "total": 19,
-    "new_today": 2,
-    "closed_since_last_run": 3,
+    "new_today": 1,
+    "closed_since_last_run": 1,
     "by_source": {
-      "Greenhouse": 1,
+      "Greenhouse": 2,
       "Lever": 2,
       "Ashby": 0,
-      "Wellfound": 16
+      "Wellfound": 15
     }
   },
   "note": "Roles filtered to non-senior, non-internship titles in India or remote. Wellfound entries are best-effort scrapes and may be missing if the run was blocked.",
   "jobs": [
     {
-      "id": "4af6dd52abd8",
-      "company": "Metaforms",
-      "title": "AI Security &amp; Platform Engineer",
-      "url": "https://wellfound.com/jobs/4797060-ai-security-platform-engineer",
-      "source": "Wellfound",
-      "location": "Bengaluru",
+      "id": "dd9121f2019e",
+      "company": "Rubrik",
+      "title": "Software Engineer- SaaS O365",
+      "url": "https://www.rubrik.com/company/careers/departments/job.8256407?gh_jid=8256407",
+      "source": "Greenhouse",
+      "location": "Bangalore ",
       "comp": "",
-      "years_required": 2,
-      "experience": "2 yrs asked",
-      "posted": "",
-      "first_seen": "2026-10-17",
-      "is_new": true
-    },
-    {
-      "id": "6d1e8c0cb7ed",
-      "company": "Zynnex AI",
-      "title": "Founding AI Engineer",
-      "url": "https://wellfound.com/jobs/4849705-founding-ai-engineer",
-      "source": "Wellfound",
-      "location": "Bengaluru",
-      "comp": "",
-      "years_required": null,
-      "experience": "junior title, no band stated",
-      "posted": "",
-      "first_seen": "2026-10-17",
+      "years_required": 0,
+      "experience": "no experience required",
+      "posted": "2026-10-06",
+      "first_seen": "2026-10-18",
       "is_new": true
     },
     {
@@ -169,6 +155,20 @@
       "is_new": false
     },
     {
+      "id": "4af6dd52abd8",
+      "company": "Metaforms",
+      "title": "AI Security &amp; Platform Engineer",
+      "url": "https://wellfound.com/jobs/4797060-ai-security-platform-engineer",
+      "source": "Wellfound",
+      "location": "Bengaluru",
+      "comp": "",
+      "years_required": 2,
+      "experience": "2 yrs asked",
+      "posted": "",
+      "first_seen": "2026-10-17",
+      "is_new": false
+    },
+    {
       "id": "806fc00aee24",
       "company": "Nexera",
       "title": "Founding Engineer",
@@ -211,20 +211,6 @@
       "is_new": false
     },
     {
-      "id": "215214d46998",
-      "company": "Stylework",
-      "title": "Junior full stack engineer",
-      "url": "https://wellfound.com/jobs/4750168-junior-full-stack-engineer",
-      "source": "Wellfound",
-      "location": "Bengaluru",
-      "comp": "",
-      "years_required": 2,
-      "experience": "2 yrs asked",
-      "posted": "",
-      "first_seen": "2026-10-16",
-      "is_new": false
-    },
-    {
       "id": "35ff817319ae",
       "company": "Zenskar",
       "title": "SDE-1",
@@ -264,6 +250,20 @@
       "experience": "1 yr asked",
       "posted": "2026-08-17",
       "first_seen": "2026-08-18",
+      "is_new": false
+    },
+    {
+      "id": "6d1e8c0cb7ed",
+      "company": "Zynnex AI",
+      "title": "Founding AI Engineer",
+      "url": "https://wellfound.com/jobs/4849705-founding-ai-engineer",
+      "source": "Wellfound",
+      "location": "Bengaluru",
+      "comp": "",
+      "years_required": null,
+      "experience": "junior title, no band stated",
+      "posted": "",
+      "first_seen": "2026-10-17",
       "is_new": false
     },
     {
