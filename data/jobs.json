@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-18T04:57:30+00:00",
-  "generated_date": "2026-10-18",
+  "generated_at": "2026-10-19T05:06:44+00:00",
+  "generated_date": "2026-10-19",
   "counts": {
     "total": 19,
     "new_today": 1,
@@ -15,17 +15,17 @@
   "note": "Roles filtered to non-senior, non-internship titles in India or remote. Wellfound entries are best-effort scrapes and may be missing if the run was blocked.",
   "jobs": [
     {
-      "id": "dd9121f2019e",
-      "company": "Rubrik",
-      "title": "Software Engineer- SaaS O365",
-      "url": "https://www.rubrik.com/company/careers/departments/job.8256407?gh_jid=8256407",
-      "source": "Greenhouse",
-      "location": "Bangalore ",
+      "id": "06f6c88a70e2",
+      "company": "Kulfi",
+      "title": "Software Engineer I - Product / Full-Stack",
+      "url": "https://wellfound.com/jobs/4866658-software-engineer-i-product-full-stack",
+      "source": "Wellfound",
+      "location": "Bengaluru",
       "comp": "",
       "years_required": 0,
       "experience": "no experience required",
-      "posted": "2026-10-06",
-      "first_seen": "2026-10-18",
+      "posted": "",
+      "first_seen": "2026-10-19",
       "is_new": true
     },
     {
@@ -113,20 +113,6 @@
       "is_new": false
     },
     {
-      "id": "b95dfe8dc97e",
-      "company": "Kulfi",
-      "title": "Software Engineer I - Product / Full-Stack",
-      "url": "https://wellfound.com/jobs/4824619-software-engineer-i-product-full-stack",
-      "source": "Wellfound",
-      "location": "Bengaluru",
-      "comp": "",
-      "years_required": 0,
-      "experience": "no experience required",
-      "posted": "",
-      "first_seen": "2026-10-13",
-      "is_new": false
-    },
-    {
       "id": "69cec68d9788",
       "company": "Matrix One",
       "title": "Full Stack Engineer - Spring Boot + React",
@@ -194,6 +180,20 @@
       "experience": "no experience required",
       "posted": "2026-10-07",
       "first_seen": "2026-10-07",
+      "is_new": false
+    },
+    {
+      "id": "dd9121f2019e",
+      "company": "Rubrik",
+      "title": "Software Engineer- SaaS O365",
+      "url": "https://www.rubrik.com/company/careers/departments/job.8256407?gh_jid=8256407",
+      "source": "Greenhouse",
+      "location": "Bangalore ",
+      "comp": "",
+      "years_required": 0,
+      "experience": "no experience required",
+      "posted": "2026-10-06",
+      "first_seen": "2026-10-18",
       "is_new": false
     },
     {
