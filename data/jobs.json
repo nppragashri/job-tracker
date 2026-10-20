@@ -1,31 +1,45 @@
 {
-  "generated_at": "2026-10-19T05:06:44+00:00",
-  "generated_date": "2026-10-19",
+  "generated_at": "2026-10-20T05:08:29+00:00",
+  "generated_date": "2026-10-20",
   "counts": {
-    "total": 19,
-    "new_today": 1,
+    "total": 20,
+    "new_today": 2,
     "closed_since_last_run": 1,
     "by_source": {
       "Greenhouse": 2,
       "Lever": 2,
       "Ashby": 0,
-      "Wellfound": 15
+      "Wellfound": 16
     }
   },
   "note": "Roles filtered to non-senior, non-internship titles in India or remote. Wellfound entries are best-effort scrapes and may be missing if the run was blocked.",
   "jobs": [
     {
-      "id": "06f6c88a70e2",
-      "company": "Kulfi",
-      "title": "Software Engineer I - Product / Full-Stack",
-      "url": "https://wellfound.com/jobs/4866658-software-engineer-i-product-full-stack",
+      "id": "8dbbbe2f0951",
+      "company": "Securelytix",
+      "title": "Backend Engineer",
+      "url": "https://wellfound.com/jobs/4867037-backend-engineer",
+      "source": "Wellfound",
+      "location": "Bengaluru",
+      "comp": "",
+      "years_required": 1,
+      "experience": "1 yr asked",
+      "posted": "",
+      "first_seen": "2026-10-20",
+      "is_new": true
+    },
+    {
+      "id": "52821ff61920",
+      "company": "Variabl",
+      "title": "Full-Stack Engineer (AI)",
+      "url": "https://wellfound.com/jobs/4866983-full-stack-engineer-ai",
       "source": "Wellfound",
       "location": "Bengaluru",
       "comp": "",
       "years_required": 0,
       "experience": "no experience required",
       "posted": "",
-      "first_seen": "2026-10-19",
+      "first_seen": "2026-10-20",
       "is_new": true
     },
     {
@@ -113,17 +127,17 @@
       "is_new": false
     },
     {
-      "id": "69cec68d9788",
-      "company": "Matrix One",
-      "title": "Full Stack Engineer - Spring Boot + React",
-      "url": "https://wellfound.com/jobs/3976865-full-stack-engineer-spring-boot-react",
+      "id": "06f6c88a70e2",
+      "company": "Kulfi",
+      "title": "Software Engineer I - Product / Full-Stack",
+      "url": "https://wellfound.com/jobs/4866658-software-engineer-i-product-full-stack",
       "source": "Wellfound",
       "location": "Bengaluru",
       "comp": "",
-      "years_required": 1,
-      "experience": "1 yr asked",
+      "years_required": 0,
+      "experience": "no experience required",
       "posted": "",
-      "first_seen": "2026-10-15",
+      "first_seen": "2026-10-19",
       "is_new": false
     },
     {
