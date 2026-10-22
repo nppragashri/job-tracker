@@ -1,45 +1,31 @@
 {
-  "generated_at": "2026-10-21T05:09:34+00:00",
-  "generated_date": "2026-10-21",
+  "generated_at": "2026-10-22T05:13:36+00:00",
+  "generated_date": "2026-10-22",
   "counts": {
     "total": 21,
-    "new_today": 2,
+    "new_today": 1,
     "closed_since_last_run": 1,
     "by_source": {
-      "Greenhouse": 3,
+      "Greenhouse": 4,
       "Lever": 2,
       "Ashby": 0,
-      "Wellfound": 16
+      "Wellfound": 15
     }
   },
   "note": "Roles filtered to non-senior, non-internship titles in India or remote. Wellfound entries are best-effort scrapes and may be missing if the run was blocked.",
   "jobs": [
     {
-      "id": "cf4feb2e9fce",
-      "company": "DafoTalk",
-      "title": "Backend Engineer (Python/Django)",
-      "url": "https://wellfound.com/jobs/4617827-backend-engineer-python-django-clone",
-      "source": "Wellfound",
-      "location": "Bengaluru",
-      "comp": "",
-      "years_required": 2,
-      "experience": "2 yrs asked",
-      "posted": "",
-      "first_seen": "2026-10-21",
-      "is_new": true
-    },
-    {
-      "id": "73d2a07a9ac6",
-      "company": "Razorpay",
-      "title": "Data Analyst, Business Finance",
-      "url": "https://job-boards.greenhouse.io/razorpaysoftwareprivatelimited/jobs/4744129005",
+      "id": "a06fa8ec4603",
+      "company": "Rubrik",
+      "title": "Software Engineer Product Infra: Core Services",
+      "url": "https://www.rubrik.com/company/careers/departments/job.8282005?gh_jid=8282005",
       "source": "Greenhouse",
       "location": "Bengaluru",
       "comp": "",
-      "years_required": 0,
-      "experience": "no experience required",
-      "posted": "2026-10-16",
-      "first_seen": "2026-10-21",
+      "years_required": 1,
+      "experience": "1 yr asked",
+      "posted": "2026-10-21",
+      "first_seen": "2026-10-22",
       "is_new": true
     },
     {
@@ -68,6 +54,20 @@
       "experience": "1 yr asked",
       "posted": "",
       "first_seen": "2026-09-20",
+      "is_new": false
+    },
+    {
+      "id": "cf4feb2e9fce",
+      "company": "DafoTalk",
+      "title": "Backend Engineer (Python/Django)",
+      "url": "https://wellfound.com/jobs/4617827-backend-engineer-python-django-clone",
+      "source": "Wellfound",
+      "location": "Bengaluru",
+      "comp": "",
+      "years_required": 2,
+      "experience": "2 yrs asked",
+      "posted": "",
+      "first_seen": "2026-10-21",
       "is_new": false
     },
     {
@@ -155,20 +155,6 @@
       "is_new": false
     },
     {
-      "id": "4af6dd52abd8",
-      "company": "Metaforms",
-      "title": "AI Security &amp; Platform Engineer",
-      "url": "https://wellfound.com/jobs/4797060-ai-security-platform-engineer",
-      "source": "Wellfound",
-      "location": "Bengaluru",
-      "comp": "",
-      "years_required": 2,
-      "experience": "2 yrs asked",
-      "posted": "",
-      "first_seen": "2026-10-17",
-      "is_new": false
-    },
-    {
       "id": "806fc00aee24",
       "company": "Nexera",
       "title": "Founding Engineer",
@@ -180,6 +166,20 @@
       "experience": "junior title, no band stated",
       "posted": "",
       "first_seen": "2026-08-14",
+      "is_new": false
+    },
+    {
+      "id": "73d2a07a9ac6",
+      "company": "Razorpay",
+      "title": "Data Analyst, Business Finance",
+      "url": "https://job-boards.greenhouse.io/razorpaysoftwareprivatelimited/jobs/4744129005",
+      "source": "Greenhouse",
+      "location": "Bengaluru",
+      "comp": "",
+      "years_required": 0,
+      "experience": "no experience required",
+      "posted": "2026-10-16",
+      "first_seen": "2026-10-21",
       "is_new": false
     },
     {
