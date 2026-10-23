@@ -1,31 +1,45 @@
 {
-  "generated_at": "2026-10-22T05:13:36+00:00",
-  "generated_date": "2026-10-22",
+  "generated_at": "2026-10-23T05:12:35+00:00",
+  "generated_date": "2026-10-23",
   "counts": {
-    "total": 21,
-    "new_today": 1,
-    "closed_since_last_run": 1,
+    "total": 18,
+    "new_today": 2,
+    "closed_since_last_run": 5,
     "by_source": {
-      "Greenhouse": 4,
+      "Greenhouse": 2,
       "Lever": 2,
       "Ashby": 0,
-      "Wellfound": 15
+      "Wellfound": 14
     }
   },
   "note": "Roles filtered to non-senior, non-internship titles in India or remote. Wellfound entries are best-effort scrapes and may be missing if the run was blocked.",
   "jobs": [
     {
-      "id": "a06fa8ec4603",
-      "company": "Rubrik",
-      "title": "Software Engineer Product Infra: Core Services",
-      "url": "https://www.rubrik.com/company/careers/departments/job.8282005?gh_jid=8282005",
-      "source": "Greenhouse",
+      "id": "1c434ac16d78",
+      "company": "Bureau",
+      "title": "Data Engineer",
+      "url": "https://wellfound.com/jobs/4751243-data-engineer",
+      "source": "Wellfound",
       "location": "Bengaluru",
       "comp": "",
       "years_required": 1,
       "experience": "1 yr asked",
-      "posted": "2026-10-21",
-      "first_seen": "2026-10-22",
+      "posted": "",
+      "first_seen": "2026-10-23",
+      "is_new": true
+    },
+    {
+      "id": "cbd34ad9c9c0",
+      "company": "Kasparro",
+      "title": "AI Software Engineer 1",
+      "url": "https://wellfound.com/jobs/4881130-ai-software-engineer-1",
+      "source": "Wellfound",
+      "location": "Bengaluru",
+      "comp": "",
+      "years_required": 1,
+      "experience": "1 yr asked",
+      "posted": "",
+      "first_seen": "2026-10-23",
       "is_new": true
     },
     {
@@ -57,20 +71,6 @@
       "is_new": false
     },
     {
-      "id": "cf4feb2e9fce",
-      "company": "DafoTalk",
-      "title": "Backend Engineer (Python/Django)",
-      "url": "https://wellfound.com/jobs/4617827-backend-engineer-python-django-clone",
-      "source": "Wellfound",
-      "location": "Bengaluru",
-      "comp": "",
-      "years_required": 2,
-      "experience": "2 yrs asked",
-      "posted": "",
-      "first_seen": "2026-10-21",
-      "is_new": false
-    },
-    {
       "id": "2682bcf56e76",
       "company": "EaseOps",
       "title": "Backend Engineer (Gen AI)",
@@ -82,34 +82,6 @@
       "experience": "1 yr asked",
       "posted": "",
       "first_seen": "2026-08-12",
-      "is_new": false
-    },
-    {
-      "id": "b1ed54b6e216",
-      "company": "Emplay",
-      "title": "Associate AI Engineer",
-      "url": "https://wellfound.com/jobs/4750179-associate-ai-engineer",
-      "source": "Wellfound",
-      "location": "Bengaluru",
-      "comp": "",
-      "years_required": 1,
-      "experience": "1 yr asked",
-      "posted": "",
-      "first_seen": "2026-09-24",
-      "is_new": false
-    },
-    {
-      "id": "09cc4024ca64",
-      "company": "Emplay",
-      "title": "Knowledge Graph Engineer (AI)",
-      "url": "https://wellfound.com/jobs/4751182-knowledge-graph-engineer-ai",
-      "source": "Wellfound",
-      "location": "Bengaluru",
-      "comp": "",
-      "years_required": 2,
-      "experience": "2 yrs asked",
-      "posted": "",
-      "first_seen": "2026-09-24",
       "is_new": false
     },
     {
@@ -194,20 +166,6 @@
       "experience": "no experience required",
       "posted": "2026-10-07",
       "first_seen": "2026-10-07",
-      "is_new": false
-    },
-    {
-      "id": "dd9121f2019e",
-      "company": "Rubrik",
-      "title": "Software Engineer- SaaS O365",
-      "url": "https://www.rubrik.com/company/careers/departments/job.8256407?gh_jid=8256407",
-      "source": "Greenhouse",
-      "location": "Bangalore ",
-      "comp": "",
-      "years_required": 0,
-      "experience": "no experience required",
-      "posted": "2026-10-06",
-      "first_seen": "2026-10-18",
       "is_new": false
     },
     {
