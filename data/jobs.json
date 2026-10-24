@@ -1,45 +1,59 @@
 {
-  "generated_at": "2026-10-23T05:12:35+00:00",
-  "generated_date": "2026-10-23",
+  "generated_at": "2026-10-24T04:55:15+00:00",
+  "generated_date": "2026-10-24",
   "counts": {
-    "total": 18,
-    "new_today": 2,
-    "closed_since_last_run": 5,
+    "total": 20,
+    "new_today": 3,
+    "closed_since_last_run": 1,
     "by_source": {
       "Greenhouse": 2,
       "Lever": 2,
       "Ashby": 0,
-      "Wellfound": 14
+      "Wellfound": 16
     }
   },
   "note": "Roles filtered to non-senior, non-internship titles in India or remote. Wellfound entries are best-effort scrapes and may be missing if the run was blocked.",
   "jobs": [
     {
-      "id": "1c434ac16d78",
-      "company": "Bureau",
-      "title": "Data Engineer",
-      "url": "https://wellfound.com/jobs/4751243-data-engineer",
+      "id": "9f57cdb996e6",
+      "company": "Botsync",
+      "title": "Software Development Engineer - III (Integrations)",
+      "url": "https://wellfound.com/jobs/4704009-software-development-engineer-iii-integrations",
       "source": "Wellfound",
       "location": "Bengaluru",
       "comp": "",
-      "years_required": 1,
-      "experience": "1 yr asked",
+      "years_required": 2,
+      "experience": "2 yrs asked",
       "posted": "",
-      "first_seen": "2026-10-23",
+      "first_seen": "2026-10-24",
       "is_new": true
     },
     {
-      "id": "cbd34ad9c9c0",
-      "company": "Kasparro",
-      "title": "AI Software Engineer 1",
-      "url": "https://wellfound.com/jobs/4881130-ai-software-engineer-1",
+      "id": "b1ed54b6e216",
+      "company": "Emplay",
+      "title": "Associate AI Engineer",
+      "url": "https://wellfound.com/jobs/4750179-associate-ai-engineer",
       "source": "Wellfound",
       "location": "Bengaluru",
       "comp": "",
       "years_required": 1,
       "experience": "1 yr asked",
       "posted": "",
-      "first_seen": "2026-10-23",
+      "first_seen": "2026-10-24",
+      "is_new": true
+    },
+    {
+      "id": "09cc4024ca64",
+      "company": "Emplay",
+      "title": "Knowledge Graph Engineer (AI)",
+      "url": "https://wellfound.com/jobs/4751182-knowledge-graph-engineer-ai",
+      "source": "Wellfound",
+      "location": "Bengaluru",
+      "comp": "",
+      "years_required": 2,
+      "experience": "2 yrs asked",
+      "posted": "",
+      "first_seen": "2026-10-24",
       "is_new": true
     },
     {
@@ -68,6 +82,20 @@
       "experience": "1 yr asked",
       "posted": "",
       "first_seen": "2026-09-20",
+      "is_new": false
+    },
+    {
+      "id": "1c434ac16d78",
+      "company": "Bureau",
+      "title": "Data Engineer",
+      "url": "https://wellfound.com/jobs/4751243-data-engineer",
+      "source": "Wellfound",
+      "location": "Bengaluru",
+      "comp": "",
+      "years_required": 1,
+      "experience": "1 yr asked",
+      "posted": "",
+      "first_seen": "2026-10-23",
       "is_new": false
     },
     {
