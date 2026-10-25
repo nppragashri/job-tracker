@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-24T04:55:15+00:00",
-  "generated_date": "2026-10-24",
+  "generated_at": "2026-10-25T05:06:50+00:00",
+  "generated_date": "2026-10-25",
   "counts": {
     "total": 20,
-    "new_today": 3,
+    "new_today": 1,
     "closed_since_last_run": 1,
     "by_source": {
       "Greenhouse": 2,
@@ -15,60 +15,18 @@
   "note": "Roles filtered to non-senior, non-internship titles in India or remote. Wellfound entries are best-effort scrapes and may be missing if the run was blocked.",
   "jobs": [
     {
-      "id": "9f57cdb996e6",
-      "company": "Botsync",
-      "title": "Software Development Engineer - III (Integrations)",
-      "url": "https://wellfound.com/jobs/4704009-software-development-engineer-iii-integrations",
+      "id": "a0ae47092053",
+      "company": "Shin AI Labs",
+      "title": "Founding Engineer - Electron + Node.js",
+      "url": "https://wellfound.com/jobs/4248509-founding-engineer-electron-node-js",
       "source": "Wellfound",
       "location": "Bengaluru",
       "comp": "",
       "years_required": 2,
       "experience": "2 yrs asked",
       "posted": "",
-      "first_seen": "2026-10-24",
+      "first_seen": "2026-10-25",
       "is_new": true
-    },
-    {
-      "id": "b1ed54b6e216",
-      "company": "Emplay",
-      "title": "Associate AI Engineer",
-      "url": "https://wellfound.com/jobs/4750179-associate-ai-engineer",
-      "source": "Wellfound",
-      "location": "Bengaluru",
-      "comp": "",
-      "years_required": 1,
-      "experience": "1 yr asked",
-      "posted": "",
-      "first_seen": "2026-10-24",
-      "is_new": true
-    },
-    {
-      "id": "09cc4024ca64",
-      "company": "Emplay",
-      "title": "Knowledge Graph Engineer (AI)",
-      "url": "https://wellfound.com/jobs/4751182-knowledge-graph-engineer-ai",
-      "source": "Wellfound",
-      "location": "Bengaluru",
-      "comp": "",
-      "years_required": 2,
-      "experience": "2 yrs asked",
-      "posted": "",
-      "first_seen": "2026-10-24",
-      "is_new": true
-    },
-    {
-      "id": "b0183897fd1b",
-      "company": "AffinityAnswers",
-      "title": "Backend &amp; Integrations Engineer (iris)",
-      "url": "https://wellfound.com/jobs/4803772-backend-integrations-engineer-iris",
-      "source": "Wellfound",
-      "location": "Bengaluru",
-      "comp": "",
-      "years_required": 2,
-      "experience": "2 yrs asked",
-      "posted": "",
-      "first_seen": "2026-10-10",
-      "is_new": false
     },
     {
       "id": "3bc631a91103",
@@ -82,6 +40,20 @@
       "experience": "1 yr asked",
       "posted": "",
       "first_seen": "2026-09-20",
+      "is_new": false
+    },
+    {
+      "id": "9f57cdb996e6",
+      "company": "Botsync",
+      "title": "Software Development Engineer - III (Integrations)",
+      "url": "https://wellfound.com/jobs/4704009-software-development-engineer-iii-integrations",
+      "source": "Wellfound",
+      "location": "Bengaluru",
+      "comp": "",
+      "years_required": 2,
+      "experience": "2 yrs asked",
+      "posted": "",
+      "first_seen": "2026-10-24",
       "is_new": false
     },
     {
@@ -110,6 +82,34 @@
       "experience": "1 yr asked",
       "posted": "",
       "first_seen": "2026-08-12",
+      "is_new": false
+    },
+    {
+      "id": "b1ed54b6e216",
+      "company": "Emplay",
+      "title": "Associate AI Engineer",
+      "url": "https://wellfound.com/jobs/4750179-associate-ai-engineer",
+      "source": "Wellfound",
+      "location": "Bengaluru",
+      "comp": "",
+      "years_required": 1,
+      "experience": "1 yr asked",
+      "posted": "",
+      "first_seen": "2026-10-24",
+      "is_new": false
+    },
+    {
+      "id": "09cc4024ca64",
+      "company": "Emplay",
+      "title": "Knowledge Graph Engineer (AI)",
+      "url": "https://wellfound.com/jobs/4751182-knowledge-graph-engineer-ai",
+      "source": "Wellfound",
+      "location": "Bengaluru",
+      "comp": "",
+      "years_required": 2,
+      "experience": "2 yrs asked",
+      "posted": "",
+      "first_seen": "2026-10-24",
       "is_new": false
     },
     {
