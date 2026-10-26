@@ -1,31 +1,59 @@
 {
-  "generated_at": "2026-10-25T05:06:50+00:00",
-  "generated_date": "2026-10-25",
+  "generated_at": "2026-10-26T05:10:04+00:00",
+  "generated_date": "2026-10-26",
   "counts": {
-    "total": 20,
-    "new_today": 1,
-    "closed_since_last_run": 1,
+    "total": 19,
+    "new_today": 3,
+    "closed_since_last_run": 4,
     "by_source": {
       "Greenhouse": 2,
       "Lever": 2,
       "Ashby": 0,
-      "Wellfound": 16
+      "Wellfound": 15
     }
   },
   "note": "Roles filtered to non-senior, non-internship titles in India or remote. Wellfound entries are best-effort scrapes and may be missing if the run was blocked.",
   "jobs": [
     {
-      "id": "a0ae47092053",
-      "company": "Shin AI Labs",
-      "title": "Founding Engineer - Electron + Node.js",
-      "url": "https://wellfound.com/jobs/4248509-founding-engineer-electron-node-js",
+      "id": "335b55eac900",
+      "company": "Actioneer",
+      "title": "Software Engineer",
+      "url": "https://wellfound.com/jobs/4878930-software-engineer",
       "source": "Wellfound",
       "location": "Bengaluru",
       "comp": "",
       "years_required": 2,
       "experience": "2 yrs asked",
       "posted": "",
-      "first_seen": "2026-10-25",
+      "first_seen": "2026-10-26",
+      "is_new": true
+    },
+    {
+      "id": "b0183897fd1b",
+      "company": "AffinityAnswers",
+      "title": "Backend &amp; Integrations Engineer (iris)",
+      "url": "https://wellfound.com/jobs/4803772-backend-integrations-engineer-iris",
+      "source": "Wellfound",
+      "location": "Bengaluru",
+      "comp": "",
+      "years_required": 2,
+      "experience": "2 yrs asked",
+      "posted": "",
+      "first_seen": "2026-10-26",
+      "is_new": true
+    },
+    {
+      "id": "e90b1a9f683d",
+      "company": "Botsync",
+      "title": "Software Development Engineer - II (Integrator)",
+      "url": "https://wellfound.com/jobs/4735141-software-development-engineer-ii-integrator",
+      "source": "Wellfound",
+      "location": "Bengaluru",
+      "comp": "",
+      "years_required": 2,
+      "experience": "2 yrs asked",
+      "posted": "",
+      "first_seen": "2026-10-26",
       "is_new": true
     },
     {
@@ -40,20 +68,6 @@
       "experience": "1 yr asked",
       "posted": "",
       "first_seen": "2026-09-20",
-      "is_new": false
-    },
-    {
-      "id": "9f57cdb996e6",
-      "company": "Botsync",
-      "title": "Software Development Engineer - III (Integrations)",
-      "url": "https://wellfound.com/jobs/4704009-software-development-engineer-iii-integrations",
-      "source": "Wellfound",
-      "location": "Bengaluru",
-      "comp": "",
-      "years_required": 2,
-      "experience": "2 yrs asked",
-      "posted": "",
-      "first_seen": "2026-10-24",
       "is_new": false
     },
     {
@@ -82,20 +96,6 @@
       "experience": "1 yr asked",
       "posted": "",
       "first_seen": "2026-08-12",
-      "is_new": false
-    },
-    {
-      "id": "b1ed54b6e216",
-      "company": "Emplay",
-      "title": "Associate AI Engineer",
-      "url": "https://wellfound.com/jobs/4750179-associate-ai-engineer",
-      "source": "Wellfound",
-      "location": "Bengaluru",
-      "comp": "",
-      "years_required": 1,
-      "experience": "1 yr asked",
-      "posted": "",
-      "first_seen": "2026-10-24",
       "is_new": false
     },
     {
@@ -264,20 +264,6 @@
       "experience": "1 yr asked",
       "posted": "2026-08-17",
       "first_seen": "2026-08-18",
-      "is_new": false
-    },
-    {
-      "id": "6d1e8c0cb7ed",
-      "company": "Zynnex AI",
-      "title": "Founding AI Engineer",
-      "url": "https://wellfound.com/jobs/4849705-founding-ai-engineer",
-      "source": "Wellfound",
-      "location": "Bengaluru",
-      "comp": "",
-      "years_required": null,
-      "experience": "junior title, no band stated",
-      "posted": "",
-      "first_seen": "2026-10-17",
       "is_new": false
     },
     {
