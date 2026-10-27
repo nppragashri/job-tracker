@@ -1,31 +1,45 @@
 {
-  "generated_at": "2026-10-26T05:10:04+00:00",
-  "generated_date": "2026-10-26",
+  "generated_at": "2026-10-27T05:24:50+00:00",
+  "generated_date": "2026-10-27",
   "counts": {
-    "total": 19,
-    "new_today": 3,
-    "closed_since_last_run": 4,
+    "total": 18,
+    "new_today": 2,
+    "closed_since_last_run": 3,
     "by_source": {
       "Greenhouse": 2,
       "Lever": 2,
       "Ashby": 0,
-      "Wellfound": 15
+      "Wellfound": 14
     }
   },
   "note": "Roles filtered to non-senior, non-internship titles in India or remote. Wellfound entries are best-effort scrapes and may be missing if the run was blocked.",
   "jobs": [
     {
-      "id": "335b55eac900",
-      "company": "Actioneer",
-      "title": "Software Engineer",
-      "url": "https://wellfound.com/jobs/4878930-software-engineer",
+      "id": "5c4a1d880e7f",
+      "company": "Proverse Talent",
+      "title": "Software Engineer - Fullstack",
+      "url": "https://wellfound.com/jobs/4829578-software-engineer-fullstack",
       "source": "Wellfound",
       "location": "Bengaluru",
       "comp": "",
       "years_required": 2,
       "experience": "2 yrs asked",
       "posted": "",
-      "first_seen": "2026-10-26",
+      "first_seen": "2026-10-27",
+      "is_new": true
+    },
+    {
+      "id": "6d1e8c0cb7ed",
+      "company": "Zynnex AI",
+      "title": "Founding AI Engineer",
+      "url": "https://wellfound.com/jobs/4849705-founding-ai-engineer",
+      "source": "Wellfound",
+      "location": "Bengaluru",
+      "comp": "",
+      "years_required": null,
+      "experience": "junior title, no band stated",
+      "posted": "",
+      "first_seen": "2026-10-27",
       "is_new": true
     },
     {
@@ -40,21 +54,7 @@
       "experience": "2 yrs asked",
       "posted": "",
       "first_seen": "2026-10-26",
-      "is_new": true
-    },
-    {
-      "id": "e90b1a9f683d",
-      "company": "Botsync",
-      "title": "Software Development Engineer - II (Integrator)",
-      "url": "https://wellfound.com/jobs/4735141-software-development-engineer-ii-integrator",
-      "source": "Wellfound",
-      "location": "Bengaluru",
-      "comp": "",
-      "years_required": 2,
-      "experience": "2 yrs asked",
-      "posted": "",
-      "first_seen": "2026-10-26",
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "3bc631a91103",
@@ -96,20 +96,6 @@
       "experience": "1 yr asked",
       "posted": "",
       "first_seen": "2026-08-12",
-      "is_new": false
-    },
-    {
-      "id": "09cc4024ca64",
-      "company": "Emplay",
-      "title": "Knowledge Graph Engineer (AI)",
-      "url": "https://wellfound.com/jobs/4751182-knowledge-graph-engineer-ai",
-      "source": "Wellfound",
-      "location": "Bengaluru",
-      "comp": "",
-      "years_required": 2,
-      "experience": "2 yrs asked",
-      "posted": "",
-      "first_seen": "2026-10-24",
       "is_new": false
     },
     {
