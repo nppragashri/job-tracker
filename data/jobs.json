@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-10-27T05:24:50+00:00",
-  "generated_date": "2026-10-27",
+  "generated_at": "2026-10-28T06:04:19+00:00",
+  "generated_date": "2026-10-28",
   "counts": {
     "total": 18,
     "new_today": 2,
-    "closed_since_last_run": 3,
+    "closed_since_last_run": 2,
     "by_source": {
-      "Greenhouse": 2,
-      "Lever": 2,
+      "Greenhouse": 1,
+      "Lever": 3,
       "Ashby": 0,
       "Wellfound": 14
     }
@@ -15,31 +15,31 @@
   "note": "Roles filtered to non-senior, non-internship titles in India or remote. Wellfound entries are best-effort scrapes and may be missing if the run was blocked.",
   "jobs": [
     {
-      "id": "5c4a1d880e7f",
-      "company": "Proverse Talent",
-      "title": "Software Engineer - Fullstack",
-      "url": "https://wellfound.com/jobs/4829578-software-engineer-fullstack",
+      "id": "a3f64aa1f8c2",
+      "company": "Stable Money",
+      "title": "AI Product Builder",
+      "url": "https://jobs.lever.co/stable-money1/137a91f9-d910-4d9d-8f42-6bf7a5aa6c86",
+      "source": "Lever",
+      "location": "Bengaluru",
+      "comp": "",
+      "years_required": 2,
+      "experience": "2 yrs asked",
+      "posted": "2026-10-27",
+      "first_seen": "2026-10-28",
+      "is_new": true
+    },
+    {
+      "id": "7de1a1a820b2",
+      "company": "cardboard.ai",
+      "title": "Backend Engineer",
+      "url": "https://wellfound.com/jobs/4787199-backend-engineer",
       "source": "Wellfound",
       "location": "Bengaluru",
       "comp": "",
       "years_required": 2,
       "experience": "2 yrs asked",
       "posted": "",
-      "first_seen": "2026-10-27",
-      "is_new": true
-    },
-    {
-      "id": "6d1e8c0cb7ed",
-      "company": "Zynnex AI",
-      "title": "Founding AI Engineer",
-      "url": "https://wellfound.com/jobs/4849705-founding-ai-engineer",
-      "source": "Wellfound",
-      "location": "Bengaluru",
-      "comp": "",
-      "years_required": null,
-      "experience": "junior title, no band stated",
-      "posted": "",
-      "first_seen": "2026-10-27",
+      "first_seen": "2026-10-28",
       "is_new": true
     },
     {
@@ -148,24 +148,10 @@
       "source": "Wellfound",
       "location": "Bengaluru",
       "comp": "",
-      "years_required": null,
-      "experience": "junior title, no band stated",
+      "years_required": 2,
+      "experience": "2 yrs asked",
       "posted": "",
       "first_seen": "2026-08-14",
-      "is_new": false
-    },
-    {
-      "id": "73d2a07a9ac6",
-      "company": "Razorpay",
-      "title": "Data Analyst, Business Finance",
-      "url": "https://job-boards.greenhouse.io/razorpaysoftwareprivatelimited/jobs/4744129005",
-      "source": "Greenhouse",
-      "location": "Bengaluru",
-      "comp": "",
-      "years_required": 0,
-      "experience": "no experience required",
-      "posted": "2026-10-16",
-      "first_seen": "2026-10-21",
       "is_new": false
     },
     {
@@ -250,6 +236,20 @@
       "experience": "1 yr asked",
       "posted": "2026-08-17",
       "first_seen": "2026-08-18",
+      "is_new": false
+    },
+    {
+      "id": "6d1e8c0cb7ed",
+      "company": "Zynnex AI",
+      "title": "Founding AI Engineer",
+      "url": "https://wellfound.com/jobs/4849705-founding-ai-engineer",
+      "source": "Wellfound",
+      "location": "Bengaluru",
+      "comp": "",
+      "years_required": null,
+      "experience": "junior title, no band stated",
+      "posted": "",
+      "first_seen": "2026-10-27",
       "is_new": false
     },
     {
