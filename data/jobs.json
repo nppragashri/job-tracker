@@ -1,59 +1,31 @@
 {
-  "generated_at": "2026-10-29T06:15:35+00:00",
-  "generated_date": "2026-10-29",
+  "generated_at": "2026-10-30T06:15:36+00:00",
+  "generated_date": "2026-10-30",
   "counts": {
-    "total": 19,
-    "new_today": 3,
+    "total": 18,
+    "new_today": 1,
     "closed_since_last_run": 2,
     "by_source": {
       "Greenhouse": 1,
       "Lever": 3,
       "Ashby": 0,
-      "Wellfound": 15
+      "Wellfound": 14
     }
   },
   "note": "Roles filtered to non-senior, non-internship titles in India or remote. Wellfound entries are best-effort scrapes and may be missing if the run was blocked.",
   "jobs": [
     {
-      "id": "9f57cdb996e6",
-      "company": "Botsync",
-      "title": "Software Development Engineer - III (Integrations)",
-      "url": "https://wellfound.com/jobs/4704009-software-development-engineer-iii-integrations",
-      "source": "Wellfound",
-      "location": "Bengaluru",
-      "comp": "",
-      "years_required": 2,
-      "experience": "2 yrs asked",
-      "posted": "",
-      "first_seen": "2026-10-29",
-      "is_new": true
-    },
-    {
-      "id": "90656357f064",
-      "company": "Formi",
-      "title": "Systems AI Engineer",
-      "url": "https://wellfound.com/jobs/4901518-systems-ai-engineer",
-      "source": "Wellfound",
-      "location": "Bengaluru",
-      "comp": "",
-      "years_required": 2,
-      "experience": "2 yrs asked",
-      "posted": "",
-      "first_seen": "2026-10-29",
-      "is_new": true
-    },
-    {
-      "id": "81960ba553eb",
-      "company": "The Alter Office",
-      "title": "Backend Engineer",
-      "url": "https://wellfound.com/jobs/4897513-backend-engineer",
+      "id": "1c434ac16d78",
+      "company": "Bureau",
+      "title": "Data Engineer",
+      "url": "https://wellfound.com/jobs/4751243-data-engineer",
       "source": "Wellfound",
       "location": "Bengaluru",
       "comp": "",
       "years_required": 1,
       "experience": "1 yr asked",
       "posted": "",
-      "first_seen": "2026-10-29",
+      "first_seen": "2026-10-30",
       "is_new": true
     },
     {
@@ -194,6 +166,20 @@
       "experience": "2 yrs asked",
       "posted": "2026-10-27",
       "first_seen": "2026-10-28",
+      "is_new": false
+    },
+    {
+      "id": "81960ba553eb",
+      "company": "The Alter Office",
+      "title": "Backend Engineer",
+      "url": "https://wellfound.com/jobs/4897513-backend-engineer",
+      "source": "Wellfound",
+      "location": "Bengaluru",
+      "comp": "",
+      "years_required": 1,
+      "experience": "1 yr asked",
+      "posted": "",
+      "first_seen": "2026-10-29",
       "is_new": false
     },
     {
