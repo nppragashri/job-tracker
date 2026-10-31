@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-30T06:15:36+00:00",
-  "generated_date": "2026-10-30",
+  "generated_at": "2026-10-31T06:08:26+00:00",
+  "generated_date": "2026-10-31",
   "counts": {
-    "total": 18,
-    "new_today": 1,
-    "closed_since_last_run": 2,
+    "total": 19,
+    "new_today": 2,
+    "closed_since_last_run": 1,
     "by_source": {
-      "Greenhouse": 1,
+      "Greenhouse": 2,
       "Lever": 3,
       "Ashby": 0,
       "Wellfound": 14
@@ -15,17 +15,31 @@
   "note": "Roles filtered to non-senior, non-internship titles in India or remote. Wellfound entries are best-effort scrapes and may be missing if the run was blocked.",
   "jobs": [
     {
-      "id": "1c434ac16d78",
-      "company": "Bureau",
-      "title": "Data Engineer",
-      "url": "https://wellfound.com/jobs/4751243-data-engineer",
+      "id": "9f57cdb996e6",
+      "company": "Botsync",
+      "title": "Software Development Engineer - III (Integrations)",
+      "url": "https://wellfound.com/jobs/4704009-software-development-engineer-iii-integrations",
       "source": "Wellfound",
       "location": "Bengaluru",
       "comp": "",
-      "years_required": 1,
-      "experience": "1 yr asked",
+      "years_required": 2,
+      "experience": "2 yrs asked",
       "posted": "",
-      "first_seen": "2026-10-30",
+      "first_seen": "2026-10-31",
+      "is_new": true
+    },
+    {
+      "id": "dd9121f2019e",
+      "company": "Rubrik",
+      "title": "Software Engineer- SaaS O365",
+      "url": "https://www.rubrik.com/company/careers/departments/job.8256407?gh_jid=8256407",
+      "source": "Greenhouse",
+      "location": "Bangalore ",
+      "comp": "",
+      "years_required": 0,
+      "experience": "no experience required",
+      "posted": "2026-10-06",
+      "first_seen": "2026-10-31",
       "is_new": true
     },
     {
@@ -54,6 +68,20 @@
       "experience": "1 yr asked",
       "posted": "",
       "first_seen": "2026-09-20",
+      "is_new": false
+    },
+    {
+      "id": "1c434ac16d78",
+      "company": "Bureau",
+      "title": "Data Engineer",
+      "url": "https://wellfound.com/jobs/4751243-data-engineer",
+      "source": "Wellfound",
+      "location": "Bengaluru",
+      "comp": "",
+      "years_required": 1,
+      "experience": "1 yr asked",
+      "posted": "",
+      "first_seen": "2026-10-30",
       "is_new": false
     },
     {
@@ -166,20 +194,6 @@
       "experience": "2 yrs asked",
       "posted": "2026-10-27",
       "first_seen": "2026-10-28",
-      "is_new": false
-    },
-    {
-      "id": "81960ba553eb",
-      "company": "The Alter Office",
-      "title": "Backend Engineer",
-      "url": "https://wellfound.com/jobs/4897513-backend-engineer",
-      "source": "Wellfound",
-      "location": "Bengaluru",
-      "comp": "",
-      "years_required": 1,
-      "experience": "1 yr asked",
-      "posted": "",
-      "first_seen": "2026-10-29",
       "is_new": false
     },
     {
