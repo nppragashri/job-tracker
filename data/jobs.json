@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-31T06:08:26+00:00",
-  "generated_date": "2026-10-31",
+  "generated_at": "2026-11-01T06:38:18+00:00",
+  "generated_date": "2026-11-01",
   "counts": {
     "total": 19,
-    "new_today": 2,
+    "new_today": 1,
     "closed_since_last_run": 1,
     "by_source": {
       "Greenhouse": 2,
@@ -15,31 +15,17 @@
   "note": "Roles filtered to non-senior, non-internship titles in India or remote. Wellfound entries are best-effort scrapes and may be missing if the run was blocked.",
   "jobs": [
     {
-      "id": "9f57cdb996e6",
-      "company": "Botsync",
-      "title": "Software Development Engineer - III (Integrations)",
-      "url": "https://wellfound.com/jobs/4704009-software-development-engineer-iii-integrations",
+      "id": "5c4a1d880e7f",
+      "company": "Proverse Talent",
+      "title": "Software Engineer - Fullstack",
+      "url": "https://wellfound.com/jobs/4829578-software-engineer-fullstack",
       "source": "Wellfound",
       "location": "Bengaluru",
       "comp": "",
       "years_required": 2,
       "experience": "2 yrs asked",
       "posted": "",
-      "first_seen": "2026-10-31",
-      "is_new": true
-    },
-    {
-      "id": "dd9121f2019e",
-      "company": "Rubrik",
-      "title": "Software Engineer- SaaS O365",
-      "url": "https://www.rubrik.com/company/careers/departments/job.8256407?gh_jid=8256407",
-      "source": "Greenhouse",
-      "location": "Bangalore ",
-      "comp": "",
-      "years_required": 0,
-      "experience": "no experience required",
-      "posted": "2026-10-06",
-      "first_seen": "2026-10-31",
+      "first_seen": "2026-11-01",
       "is_new": true
     },
     {
@@ -166,6 +152,20 @@
       "experience": "no experience required",
       "posted": "2026-10-07",
       "first_seen": "2026-10-07",
+      "is_new": false
+    },
+    {
+      "id": "dd9121f2019e",
+      "company": "Rubrik",
+      "title": "Software Engineer- SaaS O365",
+      "url": "https://www.rubrik.com/company/careers/departments/job.8256407?gh_jid=8256407",
+      "source": "Greenhouse",
+      "location": "Bangalore ",
+      "comp": "",
+      "years_required": 0,
+      "experience": "no experience required",
+      "posted": "2026-10-06",
+      "first_seen": "2026-10-31",
       "is_new": false
     },
     {
