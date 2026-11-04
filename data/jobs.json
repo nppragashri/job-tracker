@@ -1,45 +1,45 @@
 {
-  "generated_at": "2026-11-03T07:07:46+00:00",
-  "generated_date": "2026-11-03",
+  "generated_at": "2026-11-04T06:53:44+00:00",
+  "generated_date": "2026-11-04",
   "counts": {
-    "total": 19,
+    "total": 18,
     "new_today": 2,
     "closed_since_last_run": 3,
     "by_source": {
       "Greenhouse": 2,
       "Lever": 3,
       "Ashby": 0,
-      "Wellfound": 14
+      "Wellfound": 13
     }
   },
   "note": "Roles filtered to non-senior, non-internship titles in India or remote. Wellfound entries are best-effort scrapes and may be missing if the run was blocked.",
   "jobs": [
     {
-      "id": "e90b1a9f683d",
-      "company": "Botsync",
-      "title": "Software Development Engineer - II (Integrator)",
-      "url": "https://wellfound.com/jobs/4735141-software-development-engineer-ii-integrator",
+      "id": "526b99dd435a",
+      "company": "Chausar",
+      "title": "Founding Engineer",
+      "url": "https://wellfound.com/jobs/4903636-founding-engineer",
       "source": "Wellfound",
       "location": "Bengaluru",
       "comp": "",
-      "years_required": 2,
-      "experience": "2 yrs asked",
+      "years_required": null,
+      "experience": "junior title, no band stated",
       "posted": "",
-      "first_seen": "2026-11-03",
+      "first_seen": "2026-11-04",
       "is_new": true
     },
     {
-      "id": "241049c57df8",
-      "company": "Rubrik",
-      "title": "Software Engineer - Cloud: Azure",
-      "url": "https://www.rubrik.com/company/careers/departments/job.8258200?gh_jid=8258200",
+      "id": "723ec31acd41",
+      "company": "GitLab",
+      "title": "Intermediate Backend Engineer, Authorization",
+      "url": "https://job-boards.greenhouse.io/gitlab/jobs/8905402002",
       "source": "Greenhouse",
-      "location": "Bangalore ",
+      "location": "Bangalore, India",
       "comp": "",
-      "years_required": 0,
-      "experience": "no experience required",
-      "posted": "2026-10-07",
-      "first_seen": "2026-11-03",
+      "years_required": 2,
+      "experience": "2 yrs asked",
+      "posted": "2026-11-03",
+      "first_seen": "2026-11-04",
       "is_new": true
     },
     {
@@ -155,17 +155,17 @@
       "is_new": false
     },
     {
-      "id": "dd9121f2019e",
+      "id": "241049c57df8",
       "company": "Rubrik",
-      "title": "Software Engineer- SaaS O365",
-      "url": "https://www.rubrik.com/company/careers/departments/job.8256407?gh_jid=8256407",
+      "title": "Software Engineer - Cloud: Azure",
+      "url": "https://www.rubrik.com/company/careers/departments/job.8258200?gh_jid=8258200",
       "source": "Greenhouse",
       "location": "Bangalore ",
       "comp": "",
       "years_required": 0,
       "experience": "no experience required",
-      "posted": "2026-10-06",
-      "first_seen": "2026-10-31",
+      "posted": "2026-10-07",
+      "first_seen": "2026-11-03",
       "is_new": false
     },
     {
@@ -264,20 +264,6 @@
       "experience": "junior title, no band stated",
       "posted": "",
       "first_seen": "2026-10-27",
-      "is_new": false
-    },
-    {
-      "id": "8f95221051d9",
-      "company": "timepay.ai",
-      "title": "Voice AI Engineer",
-      "url": "https://wellfound.com/jobs/4824688-voice-ai-engineer",
-      "source": "Wellfound",
-      "location": "Bengaluru",
-      "comp": "",
-      "years_required": 2,
-      "experience": "2 yrs asked",
-      "posted": "",
-      "first_seen": "2026-10-13",
       "is_new": false
     }
   ]
