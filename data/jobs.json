@@ -1,47 +1,19 @@
 {
-  "generated_at": "2026-11-04T06:53:44+00:00",
-  "generated_date": "2026-11-04",
+  "generated_at": "2026-11-05T07:12:09+00:00",
+  "generated_date": "2026-11-05",
   "counts": {
-    "total": 18,
-    "new_today": 2,
-    "closed_since_last_run": 3,
+    "total": 16,
+    "new_today": 0,
+    "closed_since_last_run": 2,
     "by_source": {
       "Greenhouse": 2,
       "Lever": 3,
       "Ashby": 0,
-      "Wellfound": 13
+      "Wellfound": 11
     }
   },
   "note": "Roles filtered to non-senior, non-internship titles in India or remote. Wellfound entries are best-effort scrapes and may be missing if the run was blocked.",
   "jobs": [
-    {
-      "id": "526b99dd435a",
-      "company": "Chausar",
-      "title": "Founding Engineer",
-      "url": "https://wellfound.com/jobs/4903636-founding-engineer",
-      "source": "Wellfound",
-      "location": "Bengaluru",
-      "comp": "",
-      "years_required": null,
-      "experience": "junior title, no band stated",
-      "posted": "",
-      "first_seen": "2026-11-04",
-      "is_new": true
-    },
-    {
-      "id": "723ec31acd41",
-      "company": "GitLab",
-      "title": "Intermediate Backend Engineer, Authorization",
-      "url": "https://job-boards.greenhouse.io/gitlab/jobs/8905402002",
-      "source": "Greenhouse",
-      "location": "Bangalore, India",
-      "comp": "",
-      "years_required": 2,
-      "experience": "2 yrs asked",
-      "posted": "2026-11-03",
-      "first_seen": "2026-11-04",
-      "is_new": true
-    },
     {
       "id": "b0183897fd1b",
       "company": "AffinityAnswers",
@@ -71,17 +43,17 @@
       "is_new": false
     },
     {
-      "id": "1c434ac16d78",
-      "company": "Bureau",
-      "title": "Data Engineer",
-      "url": "https://wellfound.com/jobs/4751243-data-engineer",
+      "id": "526b99dd435a",
+      "company": "Chausar",
+      "title": "Founding Engineer",
+      "url": "https://wellfound.com/jobs/4903636-founding-engineer",
       "source": "Wellfound",
       "location": "Bengaluru",
       "comp": "",
-      "years_required": 1,
-      "experience": "1 yr asked",
+      "years_required": null,
+      "experience": "junior title, no band stated",
       "posted": "",
-      "first_seen": "2026-10-30",
+      "first_seen": "2026-11-04",
       "is_new": false
     },
     {
@@ -110,6 +82,20 @@
       "experience": "2 yrs asked",
       "posted": "",
       "first_seen": "2026-10-04",
+      "is_new": false
+    },
+    {
+      "id": "723ec31acd41",
+      "company": "GitLab",
+      "title": "Intermediate Backend Engineer, Authorization",
+      "url": "https://job-boards.greenhouse.io/gitlab/jobs/8905402002",
+      "source": "Greenhouse",
+      "location": "Bangalore, India",
+      "comp": "",
+      "years_required": 2,
+      "experience": "2 yrs asked",
+      "posted": "2026-11-03",
+      "first_seen": "2026-11-04",
       "is_new": false
     },
     {
@@ -166,20 +152,6 @@
       "experience": "no experience required",
       "posted": "2026-10-07",
       "first_seen": "2026-11-03",
-      "is_new": false
-    },
-    {
-      "id": "8dbbbe2f0951",
-      "company": "Securelytix",
-      "title": "Backend Engineer",
-      "url": "https://wellfound.com/jobs/4867037-backend-engineer",
-      "source": "Wellfound",
-      "location": "Bengaluru",
-      "comp": "",
-      "years_required": 1,
-      "experience": "1 yr asked",
-      "posted": "",
-      "first_seen": "2026-10-20",
       "is_new": false
     },
     {
