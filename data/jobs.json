@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-06T07:11:53+00:00",
-  "generated_date": "2026-11-06",
+  "generated_at": "2026-11-07T06:24:46+00:00",
+  "generated_date": "2026-11-07",
   "counts": {
     "total": 15,
-    "new_today": 1,
-    "closed_since_last_run": 2,
+    "new_today": 0,
+    "closed_since_last_run": 0,
     "by_source": {
       "Greenhouse": 1,
       "Lever": 3,
@@ -14,20 +14,6 @@
   },
   "note": "Roles filtered to non-senior, non-internship titles in India or remote. Wellfound entries are best-effort scrapes and may be missing if the run was blocked.",
   "jobs": [
-    {
-      "id": "a0ae47092053",
-      "company": "Shin AI Labs",
-      "title": "Founding Engineer - Electron + Node.js",
-      "url": "https://wellfound.com/jobs/4248509-founding-engineer-electron-node-js",
-      "source": "Wellfound",
-      "location": "Bengaluru",
-      "comp": "",
-      "years_required": null,
-      "experience": "junior title, no band stated",
-      "posted": "",
-      "first_seen": "2026-11-06",
-      "is_new": true
-    },
     {
       "id": "b0183897fd1b",
       "company": "AffinityAnswers",
@@ -152,6 +138,20 @@
       "experience": "junior title, no band stated",
       "posted": "",
       "first_seen": "2026-08-14",
+      "is_new": false
+    },
+    {
+      "id": "a0ae47092053",
+      "company": "Shin AI Labs",
+      "title": "Founding Engineer - Electron + Node.js",
+      "url": "https://wellfound.com/jobs/4248509-founding-engineer-electron-node-js",
+      "source": "Wellfound",
+      "location": "Bengaluru",
+      "comp": "",
+      "years_required": null,
+      "experience": "junior title, no band stated",
+      "posted": "",
+      "first_seen": "2026-11-06",
       "is_new": false
     },
     {
