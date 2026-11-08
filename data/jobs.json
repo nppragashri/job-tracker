@@ -1,19 +1,61 @@
 {
-  "generated_at": "2026-11-07T06:24:46+00:00",
-  "generated_date": "2026-11-07",
+  "generated_at": "2026-11-08T06:32:45+00:00",
+  "generated_date": "2026-11-08",
   "counts": {
-    "total": 15,
-    "new_today": 0,
+    "total": 18,
+    "new_today": 3,
     "closed_since_last_run": 0,
     "by_source": {
       "Greenhouse": 1,
       "Lever": 3,
       "Ashby": 0,
-      "Wellfound": 11
+      "Wellfound": 14
     }
   },
   "note": "Roles filtered to non-senior, non-internship titles in India or remote. Wellfound entries are best-effort scrapes and may be missing if the run was blocked.",
   "jobs": [
+    {
+      "id": "574cb3615019",
+      "company": "BIZTELAI TECHNOLOGIES",
+      "title": "Junior Software Engineer – Full Stack / AI",
+      "url": "https://wellfound.com/jobs/5014381-junior-software-engineer-full-stack-ai",
+      "source": "Wellfound",
+      "location": "Bengaluru",
+      "comp": "",
+      "years_required": 2,
+      "experience": "2 yrs asked",
+      "posted": "",
+      "first_seen": "2026-11-08",
+      "is_new": true
+    },
+    {
+      "id": "30200b040af7",
+      "company": "Secfix",
+      "title": "Backend Engineer – GTM Engineering (Fresh grad, India)",
+      "url": "https://wellfound.com/jobs/5008726-backend-engineer-gtm-engineering-fresh-grad-india",
+      "source": "Wellfound",
+      "location": "Bengaluru",
+      "comp": "",
+      "years_required": 1,
+      "experience": "1 yr asked",
+      "posted": "",
+      "first_seen": "2026-11-08",
+      "is_new": true
+    },
+    {
+      "id": "35ff817319ae",
+      "company": "Zenskar",
+      "title": "SDE-1",
+      "url": "https://wellfound.com/jobs/4821657-sde-1",
+      "source": "Wellfound",
+      "location": "Bengaluru",
+      "comp": "",
+      "years_required": 1,
+      "experience": "1 yr asked",
+      "posted": "",
+      "first_seen": "2026-11-08",
+      "is_new": true
+    },
     {
       "id": "b0183897fd1b",
       "company": "AffinityAnswers",
