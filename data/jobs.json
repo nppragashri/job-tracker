@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-09T07:01:54+00:00",
-  "generated_date": "2026-11-09",
+  "generated_at": "2026-11-10T07:38:44+00:00",
+  "generated_date": "2026-11-10",
   "counts": {
     "total": 17,
     "new_today": 1,
-    "closed_since_last_run": 2,
+    "closed_since_last_run": 1,
     "by_source": {
       "Greenhouse": 1,
       "Lever": 3,
@@ -15,17 +15,17 @@
   "note": "Roles filtered to non-senior, non-internship titles in India or remote. Wellfound entries are best-effort scrapes and may be missing if the run was blocked.",
   "jobs": [
     {
-      "id": "335b55eac900",
-      "company": "Actioneer",
-      "title": "Software Engineer",
-      "url": "https://wellfound.com/jobs/4878930-software-engineer",
+      "id": "9f57cdb996e6",
+      "company": "Botsync",
+      "title": "Software Development Engineer - III (Integrations)",
+      "url": "https://wellfound.com/jobs/4704009-software-development-engineer-iii-integrations",
       "source": "Wellfound",
       "location": "Bengaluru",
       "comp": "",
       "years_required": 2,
       "experience": "2 yrs asked",
       "posted": "",
-      "first_seen": "2026-11-09",
+      "first_seen": "2026-11-10",
       "is_new": true
     },
     {
@@ -50,8 +50,8 @@
       "source": "Wellfound",
       "location": "Bengaluru",
       "comp": "",
-      "years_required": null,
-      "experience": "junior title, no band stated",
+      "years_required": 2,
+      "experience": "2 yrs asked",
       "posted": "",
       "first_seen": "2026-11-08",
       "is_new": false
@@ -148,8 +148,8 @@
       "source": "Wellfound",
       "location": "Bengaluru",
       "comp": "",
-      "years_required": null,
-      "experience": "junior title, no band stated",
+      "years_required": 2,
+      "experience": "2 yrs asked",
       "posted": "",
       "first_seen": "2026-08-14",
       "is_new": false
