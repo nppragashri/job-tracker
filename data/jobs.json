@@ -1,31 +1,45 @@
 {
-  "generated_at": "2026-11-10T07:38:44+00:00",
-  "generated_date": "2026-11-10",
+  "generated_at": "2026-11-11T06:58:04+00:00",
+  "generated_date": "2026-11-11",
   "counts": {
-    "total": 17,
-    "new_today": 1,
-    "closed_since_last_run": 1,
+    "total": 16,
+    "new_today": 2,
+    "closed_since_last_run": 3,
     "by_source": {
       "Greenhouse": 1,
       "Lever": 3,
       "Ashby": 0,
-      "Wellfound": 13
+      "Wellfound": 12
     }
   },
   "note": "Roles filtered to non-senior, non-internship titles in India or remote. Wellfound entries are best-effort scrapes and may be missing if the run was blocked.",
   "jobs": [
     {
-      "id": "9f57cdb996e6",
-      "company": "Botsync",
-      "title": "Software Development Engineer - III (Integrations)",
-      "url": "https://wellfound.com/jobs/4704009-software-development-engineer-iii-integrations",
+      "id": "2fc5e01bed07",
+      "company": "FreightFox",
+      "title": "Java Backend Engineer( 0-2 yrs Exp only )",
+      "url": "https://wellfound.com/jobs/2607054-java-backend-engineer-0-2-yrs-exp-only",
       "source": "Wellfound",
       "location": "Bengaluru",
       "comp": "",
-      "years_required": 2,
-      "experience": "2 yrs asked",
+      "years_required": 0,
+      "experience": "no experience required",
       "posted": "",
-      "first_seen": "2026-11-10",
+      "first_seen": "2026-11-11",
+      "is_new": true
+    },
+    {
+      "id": "35ff817319ae",
+      "company": "Zenskar",
+      "title": "SDE-1",
+      "url": "https://wellfound.com/jobs/4821657-sde-1",
+      "source": "Wellfound",
+      "location": "Bengaluru",
+      "comp": "",
+      "years_required": 1,
+      "experience": "1 yr asked",
+      "posted": "",
+      "first_seen": "2026-11-11",
       "is_new": true
     },
     {
@@ -148,24 +162,10 @@
       "source": "Wellfound",
       "location": "Bengaluru",
       "comp": "",
-      "years_required": 2,
-      "experience": "2 yrs asked",
+      "years_required": null,
+      "experience": "junior title, no band stated",
       "posted": "",
       "first_seen": "2026-08-14",
-      "is_new": false
-    },
-    {
-      "id": "30200b040af7",
-      "company": "Secfix",
-      "title": "Backend Engineer – GTM Engineering (Fresh grad, India)",
-      "url": "https://wellfound.com/jobs/5008726-backend-engineer-gtm-engineering-fresh-grad-india",
-      "source": "Wellfound",
-      "location": "Bengaluru",
-      "comp": "",
-      "years_required": 1,
-      "experience": "1 yr asked",
-      "posted": "",
-      "first_seen": "2026-11-08",
       "is_new": false
     },
     {
@@ -194,20 +194,6 @@
       "experience": "2 yrs asked",
       "posted": "2026-10-27",
       "first_seen": "2026-10-28",
-      "is_new": false
-    },
-    {
-      "id": "52821ff61920",
-      "company": "Variabl",
-      "title": "Full-Stack Engineer (AI)",
-      "url": "https://wellfound.com/jobs/4866983-full-stack-engineer-ai",
-      "source": "Wellfound",
-      "location": "Bengaluru",
-      "comp": "",
-      "years_required": 0,
-      "experience": "no experience required",
-      "posted": "",
-      "first_seen": "2026-10-20",
       "is_new": false
     },
     {
