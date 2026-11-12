@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-11-11T06:58:04+00:00",
-  "generated_date": "2026-11-11",
+  "generated_at": "2026-11-12T07:33:29+00:00",
+  "generated_date": "2026-11-12",
   "counts": {
-    "total": 16,
+    "total": 18,
     "new_today": 2,
-    "closed_since_last_run": 3,
+    "closed_since_last_run": 0,
     "by_source": {
-      "Greenhouse": 1,
+      "Greenhouse": 3,
       "Lever": 3,
       "Ashby": 0,
       "Wellfound": 12
@@ -15,31 +15,31 @@
   "note": "Roles filtered to non-senior, non-internship titles in India or remote. Wellfound entries are best-effort scrapes and may be missing if the run was blocked.",
   "jobs": [
     {
-      "id": "2fc5e01bed07",
-      "company": "FreightFox",
-      "title": "Java Backend Engineer( 0-2 yrs Exp only )",
-      "url": "https://wellfound.com/jobs/2607054-java-backend-engineer-0-2-yrs-exp-only",
-      "source": "Wellfound",
-      "location": "Bengaluru",
+      "id": "9fb3a3f8e662",
+      "company": "Rubrik",
+      "title": "Software Engineer - Cloud Native Protection",
+      "url": "https://www.rubrik.com/company/careers/departments/job.8327940?gh_jid=8327940",
+      "source": "Greenhouse",
+      "location": "Bangalore ",
       "comp": "",
-      "years_required": 0,
-      "experience": "no experience required",
-      "posted": "",
-      "first_seen": "2026-11-11",
+      "years_required": 2,
+      "experience": "2 yrs asked",
+      "posted": "2026-11-11",
+      "first_seen": "2026-11-12",
       "is_new": true
     },
     {
-      "id": "35ff817319ae",
-      "company": "Zenskar",
-      "title": "SDE-1",
-      "url": "https://wellfound.com/jobs/4821657-sde-1",
-      "source": "Wellfound",
-      "location": "Bengaluru",
+      "id": "acd07195dfbc",
+      "company": "Rubrik",
+      "title": "Software Engineer - Cloud: Azure",
+      "url": "https://www.rubrik.com/company/careers/departments/job.8258201?gh_jid=8258201",
+      "source": "Greenhouse",
+      "location": "Bangalore ",
       "comp": "",
-      "years_required": 1,
-      "experience": "1 yr asked",
-      "posted": "",
-      "first_seen": "2026-11-11",
+      "years_required": 0,
+      "experience": "no experience required",
+      "posted": "2026-10-07",
+      "first_seen": "2026-11-12",
       "is_new": true
     },
     {
@@ -64,8 +64,8 @@
       "source": "Wellfound",
       "location": "Bengaluru",
       "comp": "",
-      "years_required": 2,
-      "experience": "2 yrs asked",
+      "years_required": null,
+      "experience": "junior title, no band stated",
       "posted": "",
       "first_seen": "2026-11-08",
       "is_new": false
@@ -110,6 +110,20 @@
       "experience": "2 yrs asked",
       "posted": "",
       "first_seen": "2026-10-04",
+      "is_new": false
+    },
+    {
+      "id": "2fc5e01bed07",
+      "company": "FreightFox",
+      "title": "Java Backend Engineer( 0-2 yrs Exp only )",
+      "url": "https://wellfound.com/jobs/2607054-java-backend-engineer-0-2-yrs-exp-only",
+      "source": "Wellfound",
+      "location": "Bengaluru",
+      "comp": "",
+      "years_required": 0,
+      "experience": "no experience required",
+      "posted": "",
+      "first_seen": "2026-11-11",
       "is_new": false
     },
     {
@@ -194,6 +208,20 @@
       "experience": "2 yrs asked",
       "posted": "2026-10-27",
       "first_seen": "2026-10-28",
+      "is_new": false
+    },
+    {
+      "id": "35ff817319ae",
+      "company": "Zenskar",
+      "title": "SDE-1",
+      "url": "https://wellfound.com/jobs/4821657-sde-1",
+      "source": "Wellfound",
+      "location": "Bengaluru",
+      "comp": "",
+      "years_required": 1,
+      "experience": "1 yr asked",
+      "posted": "",
+      "first_seen": "2026-11-11",
       "is_new": false
     },
     {
