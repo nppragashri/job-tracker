@@ -1,59 +1,31 @@
 {
-  "generated_at": "2026-11-13T07:04:23+00:00",
-  "generated_date": "2026-11-13",
+  "generated_at": "2026-11-14T06:54:09+00:00",
+  "generated_date": "2026-11-14",
   "counts": {
-    "total": 21,
-    "new_today": 3,
-    "closed_since_last_run": 0,
+    "total": 19,
+    "new_today": 1,
+    "closed_since_last_run": 3,
     "by_source": {
-      "Greenhouse": 3,
+      "Greenhouse": 2,
       "Lever": 3,
       "Ashby": 0,
-      "Wellfound": 15
+      "Wellfound": 14
     }
   },
   "note": "Roles filtered to non-senior, non-internship titles in India or remote. Wellfound entries are best-effort scrapes and may be missing if the run was blocked.",
   "jobs": [
     {
-      "id": "a2c384b03fdc",
-      "company": "Agentic Universe",
-      "title": "Software Development Engineer Interns",
-      "url": "https://wellfound.com/jobs/4985505-software-development-engineer-interns",
+      "id": "3b519d52add6",
+      "company": "Songbird Fusion Labs",
+      "title": "Software Engineer",
+      "url": "https://wellfound.com/jobs/5067375-software-engineer",
       "source": "Wellfound",
       "location": "Bengaluru",
       "comp": "",
-      "years_required": 2,
-      "experience": "2 yrs asked",
+      "years_required": 1,
+      "experience": "1 yr asked",
       "posted": "",
-      "first_seen": "2026-11-13",
-      "is_new": true
-    },
-    {
-      "id": "9f57cdb996e6",
-      "company": "Botsync",
-      "title": "Software Development Engineer - III (Integrations)",
-      "url": "https://wellfound.com/jobs/4704009-software-development-engineer-iii-integrations",
-      "source": "Wellfound",
-      "location": "Bengaluru",
-      "comp": "",
-      "years_required": 2,
-      "experience": "2 yrs asked",
-      "posted": "",
-      "first_seen": "2026-11-13",
-      "is_new": true
-    },
-    {
-      "id": "7de1a1a820b2",
-      "company": "cardboard.ai",
-      "title": "Backend Engineer",
-      "url": "https://wellfound.com/jobs/4787199-backend-engineer",
-      "source": "Wellfound",
-      "location": "Bengaluru",
-      "comp": "",
-      "years_required": 2,
-      "experience": "2 yrs asked",
-      "posted": "",
-      "first_seen": "2026-11-13",
+      "first_seen": "2026-11-14",
       "is_new": true
     },
     {
@@ -68,6 +40,20 @@
       "experience": "2 yrs asked",
       "posted": "",
       "first_seen": "2026-10-26",
+      "is_new": false
+    },
+    {
+      "id": "a2c384b03fdc",
+      "company": "Agentic Universe",
+      "title": "Software Development Engineer Interns",
+      "url": "https://wellfound.com/jobs/4985505-software-development-engineer-interns",
+      "source": "Wellfound",
+      "location": "Bengaluru",
+      "comp": "",
+      "years_required": 2,
+      "experience": "2 yrs asked",
+      "posted": "",
+      "first_seen": "2026-11-13",
       "is_new": false
     },
     {
@@ -211,20 +197,6 @@
       "is_new": false
     },
     {
-      "id": "acd07195dfbc",
-      "company": "Rubrik",
-      "title": "Software Engineer - Cloud: Azure",
-      "url": "https://www.rubrik.com/company/careers/departments/job.8258201?gh_jid=8258201",
-      "source": "Greenhouse",
-      "location": "Bangalore ",
-      "comp": "",
-      "years_required": 0,
-      "experience": "no experience required",
-      "posted": "2026-10-07",
-      "first_seen": "2026-11-12",
-      "is_new": false
-    },
-    {
       "id": "a0ae47092053",
       "company": "Shin AI Labs",
       "title": "Founding Engineer - Electron + Node.js",
@@ -250,20 +222,6 @@
       "experience": "2 yrs asked",
       "posted": "2026-10-27",
       "first_seen": "2026-10-28",
-      "is_new": false
-    },
-    {
-      "id": "35ff817319ae",
-      "company": "Zenskar",
-      "title": "SDE-1",
-      "url": "https://wellfound.com/jobs/4821657-sde-1",
-      "source": "Wellfound",
-      "location": "Bengaluru",
-      "comp": "",
-      "years_required": 1,
-      "experience": "1 yr asked",
-      "posted": "",
-      "first_seen": "2026-11-11",
       "is_new": false
     },
     {
@@ -306,6 +264,20 @@
       "experience": "junior title, no band stated",
       "posted": "",
       "first_seen": "2026-10-27",
+      "is_new": false
+    },
+    {
+      "id": "7de1a1a820b2",
+      "company": "cardboard.ai",
+      "title": "Backend Engineer",
+      "url": "https://wellfound.com/jobs/4787199-backend-engineer",
+      "source": "Wellfound",
+      "location": "Bengaluru",
+      "comp": "",
+      "years_required": 2,
+      "experience": "2 yrs asked",
+      "posted": "",
+      "first_seen": "2026-11-13",
       "is_new": false
     }
   ]
