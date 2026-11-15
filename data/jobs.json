@@ -1,60 +1,32 @@
 {
-  "generated_at": "2026-11-14T06:54:09+00:00",
-  "generated_date": "2026-11-14",
+  "generated_at": "2026-11-15T06:59:55+00:00",
+  "generated_date": "2026-11-15",
   "counts": {
-    "total": 19,
+    "total": 17,
     "new_today": 1,
     "closed_since_last_run": 3,
     "by_source": {
       "Greenhouse": 2,
       "Lever": 3,
       "Ashby": 0,
-      "Wellfound": 14
+      "Wellfound": 12
     }
   },
   "note": "Roles filtered to non-senior, non-internship titles in India or remote. Wellfound entries are best-effort scrapes and may be missing if the run was blocked.",
   "jobs": [
     {
-      "id": "3b519d52add6",
-      "company": "Songbird Fusion Labs",
-      "title": "Software Engineer",
-      "url": "https://wellfound.com/jobs/5067375-software-engineer",
+      "id": "62de6b48beb1",
+      "company": "Swift",
+      "title": "AI Engineer, Full Stack (Automation &amp; Frontend Focus)",
+      "url": "https://wellfound.com/jobs/5077918-ai-automation-full-stack-engineer-clone",
       "source": "Wellfound",
       "location": "Bengaluru",
       "comp": "",
-      "years_required": 1,
-      "experience": "1 yr asked",
+      "years_required": 2,
+      "experience": "2 yrs asked",
       "posted": "",
-      "first_seen": "2026-11-14",
+      "first_seen": "2026-11-15",
       "is_new": true
-    },
-    {
-      "id": "b0183897fd1b",
-      "company": "AffinityAnswers",
-      "title": "Backend &amp; Integrations Engineer (iris)",
-      "url": "https://wellfound.com/jobs/4803772-backend-integrations-engineer-iris",
-      "source": "Wellfound",
-      "location": "Bengaluru",
-      "comp": "",
-      "years_required": 2,
-      "experience": "2 yrs asked",
-      "posted": "",
-      "first_seen": "2026-10-26",
-      "is_new": false
-    },
-    {
-      "id": "a2c384b03fdc",
-      "company": "Agentic Universe",
-      "title": "Software Development Engineer Interns",
-      "url": "https://wellfound.com/jobs/4985505-software-development-engineer-interns",
-      "source": "Wellfound",
-      "location": "Bengaluru",
-      "comp": "",
-      "years_required": 2,
-      "experience": "2 yrs asked",
-      "posted": "",
-      "first_seen": "2026-11-13",
-      "is_new": false
     },
     {
       "id": "574cb3615019",
@@ -211,6 +183,20 @@
       "is_new": false
     },
     {
+      "id": "3b519d52add6",
+      "company": "Songbird Fusion Labs",
+      "title": "Software Engineer",
+      "url": "https://wellfound.com/jobs/5067375-software-engineer",
+      "source": "Wellfound",
+      "location": "Bengaluru",
+      "comp": "",
+      "years_required": 1,
+      "experience": "1 yr asked",
+      "posted": "",
+      "first_seen": "2026-11-14",
+      "is_new": false
+    },
+    {
       "id": "a3f64aa1f8c2",
       "company": "Stable Money",
       "title": "AI Product Builder",
@@ -264,20 +250,6 @@
       "experience": "junior title, no band stated",
       "posted": "",
       "first_seen": "2026-10-27",
-      "is_new": false
-    },
-    {
-      "id": "7de1a1a820b2",
-      "company": "cardboard.ai",
-      "title": "Backend Engineer",
-      "url": "https://wellfound.com/jobs/4787199-backend-engineer",
-      "source": "Wellfound",
-      "location": "Bengaluru",
-      "comp": "",
-      "years_required": 2,
-      "experience": "2 yrs asked",
-      "posted": "",
-      "first_seen": "2026-11-13",
       "is_new": false
     }
   ]
