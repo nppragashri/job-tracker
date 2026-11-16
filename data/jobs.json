@@ -1,31 +1,31 @@
 {
-  "generated_at": "2026-11-15T06:59:55+00:00",
-  "generated_date": "2026-11-15",
+  "generated_at": "2026-11-16T07:06:09+00:00",
+  "generated_date": "2026-11-16",
   "counts": {
-    "total": 17,
+    "total": 16,
     "new_today": 1,
-    "closed_since_last_run": 3,
+    "closed_since_last_run": 2,
     "by_source": {
       "Greenhouse": 2,
       "Lever": 3,
       "Ashby": 0,
-      "Wellfound": 12
+      "Wellfound": 11
     }
   },
   "note": "Roles filtered to non-senior, non-internship titles in India or remote. Wellfound entries are best-effort scrapes and may be missing if the run was blocked.",
   "jobs": [
     {
-      "id": "62de6b48beb1",
-      "company": "Swift",
-      "title": "AI Engineer, Full Stack (Automation &amp; Frontend Focus)",
-      "url": "https://wellfound.com/jobs/5077918-ai-automation-full-stack-engineer-clone",
+      "id": "8f95221051d9",
+      "company": "timepay.ai",
+      "title": "Voice AI Engineer",
+      "url": "https://wellfound.com/jobs/4824688-voice-ai-engineer",
       "source": "Wellfound",
       "location": "Bengaluru",
       "comp": "",
       "years_required": 2,
       "experience": "2 yrs asked",
       "posted": "",
-      "first_seen": "2026-11-15",
+      "first_seen": "2026-11-16",
       "is_new": true
     },
     {
@@ -82,20 +82,6 @@
       "experience": "2 yrs asked",
       "posted": "",
       "first_seen": "2026-10-04",
-      "is_new": false
-    },
-    {
-      "id": "2fc5e01bed07",
-      "company": "FreightFox",
-      "title": "Java Backend Engineer( 0-2 yrs Exp only )",
-      "url": "https://wellfound.com/jobs/2607054-java-backend-engineer-0-2-yrs-exp-only",
-      "source": "Wellfound",
-      "location": "Bengaluru",
-      "comp": "",
-      "years_required": 0,
-      "experience": "no experience required",
-      "posted": "",
-      "first_seen": "2026-11-11",
       "is_new": false
     },
     {
@@ -176,8 +162,8 @@
       "source": "Wellfound",
       "location": "Bengaluru",
       "comp": "",
-      "years_required": null,
-      "experience": "junior title, no band stated",
+      "years_required": 2,
+      "experience": "2 yrs asked",
       "posted": "",
       "first_seen": "2026-11-06",
       "is_new": false
