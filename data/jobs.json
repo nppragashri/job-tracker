@@ -1,45 +1,31 @@
 {
-  "generated_at": "2026-11-17T08:19:10+00:00",
-  "generated_date": "2026-11-17",
+  "generated_at": "2026-11-18T07:51:25+00:00",
+  "generated_date": "2026-11-18",
   "counts": {
     "total": 17,
-    "new_today": 2,
+    "new_today": 1,
     "closed_since_last_run": 1,
     "by_source": {
-      "Greenhouse": 1,
+      "Greenhouse": 2,
       "Lever": 3,
       "Ashby": 0,
-      "Wellfound": 13
+      "Wellfound": 12
     }
   },
   "note": "Roles filtered to non-senior, non-internship titles in India or remote. Wellfound entries are best-effort scrapes and may be missing if the run was blocked.",
   "jobs": [
     {
-      "id": "90656357f064",
-      "company": "Agentic Universe",
-      "title": "Systems AI Engineer",
-      "url": "https://wellfound.com/jobs/4901518-systems-ai-engineer",
-      "source": "Wellfound",
+      "id": "a06fa8ec4603",
+      "company": "Rubrik",
+      "title": "Software Engineer Product Infra: Core Services",
+      "url": "https://www.rubrik.com/company/careers/departments/job.8282005?gh_jid=8282005",
+      "source": "Greenhouse",
       "location": "Bengaluru",
       "comp": "",
-      "years_required": 2,
-      "experience": "2 yrs asked",
-      "posted": "",
-      "first_seen": "2026-11-17",
-      "is_new": true
-    },
-    {
-      "id": "62de6b48beb1",
-      "company": "Swift",
-      "title": "AI Engineer, Full Stack (Automation &amp; Frontend Focus)",
-      "url": "https://wellfound.com/jobs/5077918-ai-automation-full-stack-engineer-clone",
-      "source": "Wellfound",
-      "location": "Bengaluru",
-      "comp": "",
-      "years_required": 2,
-      "experience": "2 yrs asked",
-      "posted": "",
-      "first_seen": "2026-11-17",
+      "years_required": 1,
+      "experience": "1 yr asked",
+      "posted": "2026-10-21",
+      "first_seen": "2026-11-18",
       "is_new": true
     },
     {
@@ -197,6 +183,20 @@
       "is_new": false
     },
     {
+      "id": "62de6b48beb1",
+      "company": "Swift",
+      "title": "AI Engineer, Full Stack (Automation &amp; Frontend Focus)",
+      "url": "https://wellfound.com/jobs/5077918-ai-automation-full-stack-engineer-clone",
+      "source": "Wellfound",
+      "location": "Bengaluru",
+      "comp": "",
+      "years_required": 2,
+      "experience": "2 yrs asked",
+      "posted": "",
+      "first_seen": "2026-11-17",
+      "is_new": false
+    },
+    {
       "id": "e6d7aea6fc98",
       "company": "Zimperium",
       "title": "Java Engineer (Back-End & Microservices) - Bangalore, India",
@@ -232,8 +232,8 @@
       "source": "Wellfound",
       "location": "Bengaluru",
       "comp": "",
-      "years_required": 2,
-      "experience": "2 yrs asked",
+      "years_required": null,
+      "experience": "junior title, no band stated",
       "posted": "",
       "first_seen": "2026-10-27",
       "is_new": false
