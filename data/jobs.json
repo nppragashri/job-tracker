@@ -1,33 +1,19 @@
 {
-  "generated_at": "2026-11-18T07:51:25+00:00",
-  "generated_date": "2026-11-18",
+  "generated_at": "2026-11-19T07:47:02+00:00",
+  "generated_date": "2026-11-19",
   "counts": {
-    "total": 17,
-    "new_today": 1,
-    "closed_since_last_run": 1,
+    "total": 15,
+    "new_today": 0,
+    "closed_since_last_run": 2,
     "by_source": {
-      "Greenhouse": 2,
+      "Greenhouse": 1,
       "Lever": 3,
       "Ashby": 0,
-      "Wellfound": 12
+      "Wellfound": 11
     }
   },
   "note": "Roles filtered to non-senior, non-internship titles in India or remote. Wellfound entries are best-effort scrapes and may be missing if the run was blocked.",
   "jobs": [
-    {
-      "id": "a06fa8ec4603",
-      "company": "Rubrik",
-      "title": "Software Engineer Product Infra: Core Services",
-      "url": "https://www.rubrik.com/company/careers/departments/job.8282005?gh_jid=8282005",
-      "source": "Greenhouse",
-      "location": "Bengaluru",
-      "comp": "",
-      "years_required": 1,
-      "experience": "1 yr asked",
-      "posted": "2026-10-21",
-      "first_seen": "2026-11-18",
-      "is_new": true
-    },
     {
       "id": "574cb3615019",
       "company": "BIZTELAI TECHNOLOGIES",
@@ -120,8 +106,8 @@
       "source": "Wellfound",
       "location": "Bengaluru",
       "comp": "",
-      "years_required": 2,
-      "experience": "2 yrs asked",
+      "years_required": null,
+      "experience": "junior title, no band stated",
       "posted": "",
       "first_seen": "2026-08-14",
       "is_new": false
@@ -236,20 +222,6 @@
       "experience": "junior title, no band stated",
       "posted": "",
       "first_seen": "2026-10-27",
-      "is_new": false
-    },
-    {
-      "id": "8f95221051d9",
-      "company": "timepay.ai",
-      "title": "Voice AI Engineer",
-      "url": "https://wellfound.com/jobs/4824688-voice-ai-engineer",
-      "source": "Wellfound",
-      "location": "Bengaluru",
-      "comp": "",
-      "years_required": 2,
-      "experience": "2 yrs asked",
-      "posted": "",
-      "first_seen": "2026-11-16",
       "is_new": false
     }
   ]
