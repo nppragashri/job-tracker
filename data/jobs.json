@@ -1,19 +1,47 @@
 {
-  "generated_at": "2026-11-19T07:47:02+00:00",
-  "generated_date": "2026-11-19",
+  "generated_at": "2026-11-20T07:39:41+00:00",
+  "generated_date": "2026-11-20",
   "counts": {
-    "total": 15,
-    "new_today": 0,
-    "closed_since_last_run": 2,
+    "total": 17,
+    "new_today": 2,
+    "closed_since_last_run": 0,
     "by_source": {
-      "Greenhouse": 1,
+      "Greenhouse": 2,
       "Lever": 3,
       "Ashby": 0,
-      "Wellfound": 11
+      "Wellfound": 12
     }
   },
   "note": "Roles filtered to non-senior, non-internship titles in India or remote. Wellfound entries are best-effort scrapes and may be missing if the run was blocked.",
   "jobs": [
+    {
+      "id": "885594125bb3",
+      "company": "Digit88",
+      "title": "Full Stack AI Engineer",
+      "url": "https://wellfound.com/jobs/5105659-full-stack-ai-engineer",
+      "source": "Wellfound",
+      "location": "Bengaluru",
+      "comp": "",
+      "years_required": 2,
+      "experience": "2 yrs asked",
+      "posted": "",
+      "first_seen": "2026-11-20",
+      "is_new": true
+    },
+    {
+      "id": "66756211df34",
+      "company": "Sigmoid",
+      "title": "Data Scientist",
+      "url": "https://job-boards.greenhouse.io/sigmoid/jobs/8951153002",
+      "source": "Greenhouse",
+      "location": "Bengaluru, Karnataka, India",
+      "comp": "",
+      "years_required": 1,
+      "experience": "1 yr asked",
+      "posted": "2026-11-19",
+      "first_seen": "2026-11-20",
+      "is_new": true
+    },
     {
       "id": "574cb3615019",
       "company": "BIZTELAI TECHNOLOGIES",
@@ -134,8 +162,8 @@
       "source": "Wellfound",
       "location": "Bengaluru",
       "comp": "",
-      "years_required": null,
-      "experience": "junior title, no band stated",
+      "years_required": 2,
+      "experience": "2 yrs asked",
       "posted": "",
       "first_seen": "2026-11-06",
       "is_new": false
@@ -218,8 +246,8 @@
       "source": "Wellfound",
       "location": "Bengaluru",
       "comp": "",
-      "years_required": null,
-      "experience": "junior title, no band stated",
+      "years_required": 2,
+      "experience": "2 yrs asked",
       "posted": "",
       "first_seen": "2026-10-27",
       "is_new": false
