@@ -1,45 +1,73 @@
 {
-  "generated_at": "2026-11-20T07:39:41+00:00",
-  "generated_date": "2026-11-20",
+  "generated_at": "2026-11-21T07:35:54+00:00",
+  "generated_date": "2026-11-21",
   "counts": {
-    "total": 17,
-    "new_today": 2,
-    "closed_since_last_run": 0,
+    "total": 20,
+    "new_today": 4,
+    "closed_since_last_run": 1,
     "by_source": {
-      "Greenhouse": 2,
+      "Greenhouse": 3,
       "Lever": 3,
       "Ashby": 0,
-      "Wellfound": 12
+      "Wellfound": 14
     }
   },
   "note": "Roles filtered to non-senior, non-internship titles in India or remote. Wellfound entries are best-effort scrapes and may be missing if the run was blocked.",
   "jobs": [
     {
-      "id": "885594125bb3",
-      "company": "Digit88",
-      "title": "Full Stack AI Engineer",
-      "url": "https://wellfound.com/jobs/5105659-full-stack-ai-engineer",
+      "id": "a06fa8ec4603",
+      "company": "Rubrik",
+      "title": "Software Engineer Product Infra: Core Services",
+      "url": "https://www.rubrik.com/company/careers/departments/job.8282005?gh_jid=8282005",
+      "source": "Greenhouse",
+      "location": "Bengaluru",
+      "comp": "",
+      "years_required": 1,
+      "experience": "1 yr asked",
+      "posted": "2026-10-21",
+      "first_seen": "2026-11-21",
+      "is_new": true
+    },
+    {
+      "id": "ea26705da18c",
+      "company": "ShortLoop",
+      "title": "Software Engineer",
+      "url": "https://wellfound.com/jobs/3651579-software-engineer",
+      "source": "Wellfound",
+      "location": "Bengaluru",
+      "comp": "",
+      "years_required": 0,
+      "experience": "no experience required",
+      "posted": "",
+      "first_seen": "2026-11-21",
+      "is_new": true
+    },
+    {
+      "id": "215214d46998",
+      "company": "Stylework",
+      "title": "Junior full stack engineer",
+      "url": "https://wellfound.com/jobs/4750168-junior-full-stack-engineer",
       "source": "Wellfound",
       "location": "Bengaluru",
       "comp": "",
       "years_required": 2,
       "experience": "2 yrs asked",
       "posted": "",
-      "first_seen": "2026-11-20",
+      "first_seen": "2026-11-21",
       "is_new": true
     },
     {
-      "id": "66756211df34",
-      "company": "Sigmoid",
-      "title": "Data Scientist",
-      "url": "https://job-boards.greenhouse.io/sigmoid/jobs/8951153002",
-      "source": "Greenhouse",
-      "location": "Bengaluru, Karnataka, India",
+      "id": "8f95221051d9",
+      "company": "timepay.ai",
+      "title": "Voice AI Engineer",
+      "url": "https://wellfound.com/jobs/4824688-voice-ai-engineer",
+      "source": "Wellfound",
+      "location": "Bengaluru",
       "comp": "",
-      "years_required": 1,
-      "experience": "1 yr asked",
-      "posted": "2026-11-19",
-      "first_seen": "2026-11-20",
+      "years_required": 2,
+      "experience": "2 yrs asked",
+      "posted": "",
+      "first_seen": "2026-11-21",
       "is_new": true
     },
     {
@@ -50,8 +78,8 @@
       "source": "Wellfound",
       "location": "Bengaluru",
       "comp": "",
-      "years_required": null,
-      "experience": "junior title, no band stated",
+      "years_required": 2,
+      "experience": "2 yrs asked",
       "posted": "",
       "first_seen": "2026-11-08",
       "is_new": false
@@ -68,6 +96,20 @@
       "experience": "1 yr asked",
       "posted": "",
       "first_seen": "2026-09-20",
+      "is_new": false
+    },
+    {
+      "id": "885594125bb3",
+      "company": "Digit88",
+      "title": "Full Stack AI Engineer",
+      "url": "https://wellfound.com/jobs/5105659-full-stack-ai-engineer",
+      "source": "Wellfound",
+      "location": "Bengaluru",
+      "comp": "",
+      "years_required": 2,
+      "experience": "2 yrs asked",
+      "posted": "",
+      "first_seen": "2026-11-20",
       "is_new": false
     },
     {
@@ -96,20 +138,6 @@
       "experience": "2 yrs asked",
       "posted": "",
       "first_seen": "2026-10-04",
-      "is_new": false
-    },
-    {
-      "id": "06f6c88a70e2",
-      "company": "Kulfi",
-      "title": "Software Engineer I - Product / Full-Stack",
-      "url": "https://wellfound.com/jobs/4866658-software-engineer-i-product-full-stack",
-      "source": "Wellfound",
-      "location": "Bengaluru",
-      "comp": "",
-      "years_required": 0,
-      "experience": "no experience required",
-      "posted": "",
-      "first_seen": "2026-10-19",
       "is_new": false
     },
     {
@@ -166,6 +194,20 @@
       "experience": "2 yrs asked",
       "posted": "",
       "first_seen": "2026-11-06",
+      "is_new": false
+    },
+    {
+      "id": "66756211df34",
+      "company": "Sigmoid",
+      "title": "Data Scientist",
+      "url": "https://job-boards.greenhouse.io/sigmoid/jobs/8951153002",
+      "source": "Greenhouse",
+      "location": "Bengaluru, Karnataka, India",
+      "comp": "",
+      "years_required": 1,
+      "experience": "1 yr asked",
+      "posted": "2026-11-19",
+      "first_seen": "2026-11-20",
       "is_new": false
     },
     {
