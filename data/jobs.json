@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-21T07:35:54+00:00",
-  "generated_date": "2026-11-21",
+  "generated_at": "2026-11-22T07:17:46+00:00",
+  "generated_date": "2026-11-22",
   "counts": {
     "total": 20,
-    "new_today": 4,
-    "closed_since_last_run": 1,
+    "new_today": 0,
+    "closed_since_last_run": 0,
     "by_source": {
       "Greenhouse": 3,
       "Lever": 3,
@@ -15,62 +15,6 @@
   "note": "Roles filtered to non-senior, non-internship titles in India or remote. Wellfound entries are best-effort scrapes and may be missing if the run was blocked.",
   "jobs": [
     {
-      "id": "a06fa8ec4603",
-      "company": "Rubrik",
-      "title": "Software Engineer Product Infra: Core Services",
-      "url": "https://www.rubrik.com/company/careers/departments/job.8282005?gh_jid=8282005",
-      "source": "Greenhouse",
-      "location": "Bengaluru",
-      "comp": "",
-      "years_required": 1,
-      "experience": "1 yr asked",
-      "posted": "2026-10-21",
-      "first_seen": "2026-11-21",
-      "is_new": true
-    },
-    {
-      "id": "ea26705da18c",
-      "company": "ShortLoop",
-      "title": "Software Engineer",
-      "url": "https://wellfound.com/jobs/3651579-software-engineer",
-      "source": "Wellfound",
-      "location": "Bengaluru",
-      "comp": "",
-      "years_required": 0,
-      "experience": "no experience required",
-      "posted": "",
-      "first_seen": "2026-11-21",
-      "is_new": true
-    },
-    {
-      "id": "215214d46998",
-      "company": "Stylework",
-      "title": "Junior full stack engineer",
-      "url": "https://wellfound.com/jobs/4750168-junior-full-stack-engineer",
-      "source": "Wellfound",
-      "location": "Bengaluru",
-      "comp": "",
-      "years_required": 2,
-      "experience": "2 yrs asked",
-      "posted": "",
-      "first_seen": "2026-11-21",
-      "is_new": true
-    },
-    {
-      "id": "8f95221051d9",
-      "company": "timepay.ai",
-      "title": "Voice AI Engineer",
-      "url": "https://wellfound.com/jobs/4824688-voice-ai-engineer",
-      "source": "Wellfound",
-      "location": "Bengaluru",
-      "comp": "",
-      "years_required": 2,
-      "experience": "2 yrs asked",
-      "posted": "",
-      "first_seen": "2026-11-21",
-      "is_new": true
-    },
-    {
       "id": "574cb3615019",
       "company": "BIZTELAI TECHNOLOGIES",
       "title": "Junior Software Engineer – Full Stack / AI",
@@ -78,8 +22,8 @@
       "source": "Wellfound",
       "location": "Bengaluru",
       "comp": "",
-      "years_required": 2,
-      "experience": "2 yrs asked",
+      "years_required": null,
+      "experience": "junior title, no band stated",
       "posted": "",
       "first_seen": "2026-11-08",
       "is_new": false
@@ -183,6 +127,20 @@
       "is_new": false
     },
     {
+      "id": "a06fa8ec4603",
+      "company": "Rubrik",
+      "title": "Software Engineer Product Infra: Core Services",
+      "url": "https://www.rubrik.com/company/careers/departments/job.8282005?gh_jid=8282005",
+      "source": "Greenhouse",
+      "location": "Bengaluru",
+      "comp": "",
+      "years_required": 1,
+      "experience": "1 yr asked",
+      "posted": "2026-10-21",
+      "first_seen": "2026-11-21",
+      "is_new": false
+    },
+    {
       "id": "a0ae47092053",
       "company": "Shin AI Labs",
       "title": "Founding Engineer - Electron + Node.js",
@@ -190,10 +148,24 @@
       "source": "Wellfound",
       "location": "Bengaluru",
       "comp": "",
-      "years_required": 2,
-      "experience": "2 yrs asked",
+      "years_required": null,
+      "experience": "junior title, no band stated",
       "posted": "",
       "first_seen": "2026-11-06",
+      "is_new": false
+    },
+    {
+      "id": "ea26705da18c",
+      "company": "ShortLoop",
+      "title": "Software Engineer",
+      "url": "https://wellfound.com/jobs/3651579-software-engineer",
+      "source": "Wellfound",
+      "location": "Bengaluru",
+      "comp": "",
+      "years_required": 0,
+      "experience": "no experience required",
+      "posted": "",
+      "first_seen": "2026-11-21",
       "is_new": false
     },
     {
@@ -236,6 +208,20 @@
       "experience": "2 yrs asked",
       "posted": "2026-10-27",
       "first_seen": "2026-10-28",
+      "is_new": false
+    },
+    {
+      "id": "215214d46998",
+      "company": "Stylework",
+      "title": "Junior full stack engineer",
+      "url": "https://wellfound.com/jobs/4750168-junior-full-stack-engineer",
+      "source": "Wellfound",
+      "location": "Bengaluru",
+      "comp": "",
+      "years_required": 2,
+      "experience": "2 yrs asked",
+      "posted": "",
+      "first_seen": "2026-11-21",
       "is_new": false
     },
     {
@@ -288,10 +274,24 @@
       "source": "Wellfound",
       "location": "Bengaluru",
       "comp": "",
+      "years_required": null,
+      "experience": "junior title, no band stated",
+      "posted": "",
+      "first_seen": "2026-10-27",
+      "is_new": false
+    },
+    {
+      "id": "8f95221051d9",
+      "company": "timepay.ai",
+      "title": "Voice AI Engineer",
+      "url": "https://wellfound.com/jobs/4824688-voice-ai-engineer",
+      "source": "Wellfound",
+      "location": "Bengaluru",
+      "comp": "",
       "years_required": 2,
       "experience": "2 yrs asked",
       "posted": "",
-      "first_seen": "2026-10-27",
+      "first_seen": "2026-11-21",
       "is_new": false
     }
   ]
