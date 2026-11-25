@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-11-24T10:16:35+00:00",
-  "generated_date": "2026-11-24",
+  "generated_at": "2026-11-25T09:00:00+00:00",
+  "generated_date": "2026-11-25",
   "counts": {
-    "total": 18,
+    "total": 17,
     "new_today": 0,
     "closed_since_last_run": 1,
     "by_source": {
       "Greenhouse": 2,
       "Lever": 3,
       "Ashby": 0,
-      "Wellfound": 13
+      "Wellfound": 12
     }
   },
   "note": "Roles filtered to non-senior, non-internship titles in India or remote. Wellfound entries are best-effort scrapes and may be missing if the run was blocked.",
@@ -138,20 +138,6 @@
       "experience": "junior title, no band stated",
       "posted": "",
       "first_seen": "2026-11-06",
-      "is_new": false
-    },
-    {
-      "id": "ea26705da18c",
-      "company": "ShortLoop",
-      "title": "Software Engineer",
-      "url": "https://wellfound.com/jobs/3651579-software-engineer",
-      "source": "Wellfound",
-      "location": "Bengaluru",
-      "comp": "",
-      "years_required": 0,
-      "experience": "no experience required",
-      "posted": "",
-      "first_seen": "2026-11-21",
       "is_new": false
     },
     {
