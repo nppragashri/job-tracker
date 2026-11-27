@@ -1,31 +1,31 @@
 {
-  "generated_at": "2026-11-26T08:46:27+00:00",
-  "generated_date": "2026-11-26",
+  "generated_at": "2026-11-27T08:56:56+00:00",
+  "generated_date": "2026-11-27",
   "counts": {
-    "total": 17,
+    "total": 16,
     "new_today": 1,
-    "closed_since_last_run": 1,
+    "closed_since_last_run": 2,
     "by_source": {
       "Greenhouse": 2,
       "Lever": 3,
       "Ashby": 0,
-      "Wellfound": 12
+      "Wellfound": 11
     }
   },
   "note": "Roles filtered to non-senior, non-internship titles in India or remote. Wellfound entries are best-effort scrapes and may be missing if the run was blocked.",
   "jobs": [
     {
-      "id": "87c58cbb95e4",
-      "company": "Headout",
-      "title": "Software Engineer in Test",
-      "url": "https://wellfound.com/jobs/5137546-software-engineer-in-test",
+      "id": "ce51745c8ede",
+      "company": "Emplay",
+      "title": "Agentic AI Automation Engineer (Exp-2-3 yrs)",
+      "url": "https://wellfound.com/jobs/5138044-agentic-ai-automation-engineer-exp-2-3-yrs",
       "source": "Wellfound",
       "location": "Bengaluru",
       "comp": "",
-      "years_required": 1,
-      "experience": "1 yr asked",
+      "years_required": 2,
+      "experience": "2 yrs asked",
       "posted": "",
-      "first_seen": "2026-11-26",
+      "first_seen": "2026-11-27",
       "is_new": true
     },
     {
@@ -148,8 +148,8 @@
       "source": "Wellfound",
       "location": "Bengaluru",
       "comp": "",
-      "years_required": 2,
-      "experience": "2 yrs asked",
+      "years_required": null,
+      "experience": "junior title, no band stated",
       "posted": "",
       "first_seen": "2026-11-06",
       "is_new": false
@@ -236,20 +236,6 @@
       "experience": "1 yr asked",
       "posted": "2026-08-17",
       "first_seen": "2026-08-18",
-      "is_new": false
-    },
-    {
-      "id": "6d1e8c0cb7ed",
-      "company": "Zynnex AI",
-      "title": "Founding AI Engineer",
-      "url": "https://wellfound.com/jobs/4849705-founding-ai-engineer",
-      "source": "Wellfound",
-      "location": "Bengaluru",
-      "comp": "",
-      "years_required": null,
-      "experience": "junior title, no band stated",
-      "posted": "",
-      "first_seen": "2026-10-27",
       "is_new": false
     }
   ]
